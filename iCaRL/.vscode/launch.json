@@ -1,0 +1,32 @@
+{
+    "configurations": [
+    
+    ]
+} // {
+//     // Use IntelliSense to learn about possible attributes.
+//     // Hover to view descriptions of existing attributes.
+//     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+//     "version": "0.2.0",
+//     "configurations": [
+        
+//         {
+//             "name": "Python: Current File",
+//             "type": "python",
+//             "request": "launch",
+//             "program": "${file}",
+//             "console": "integratedTerminal",
+//             "python": "/scratch_net/kringel/chuqli/conda_envs/icarl_pytorch/bin/python",
+//             "python.pythonPath": "/scratch_net/kringel/chuqli/conda_envs/icarl_pytorch/bin/python",
+//             "args": [
+//                 "--name", "icarl_df",
+//                 "--checkpoints_dir","/scratch_net/kringel/chuqli/CNNDetection/checkpoints",
+//                 "--model_weights", "/home/chuqli/scratch/CNNDetection/checkpoints/no_aug/model_epoch_best.pth",
+//                 "--dataroot", "/srv/beegfs02/scratch/generative_modeling/data/Deepfake/test",
+//                 "--task_name", "gaugan,biggan",
+//                 "--multiclass", "0", "0",
+//                 "--batch_size", "32",
+//                 "--num_epochs", "12"
+//             ]
+//         }
+//     ]
+// }

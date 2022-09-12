@@ -1,0 +1,19 @@
+Document: docutils-documentation
+Section: Programming
+Title: Docutils Project Documentation
+Author: 
+  Martin Blais, Dethe Elza, David Goodger, Engelbert Gruber, Richard Jones,
+  Dave Kuhlman, Chris Liechti, Guenter Milde, Guido van Rossum, Janet Swisher,
+  Lea Wiemann
+
+Format: HTML
+Index: /usr/share/doc/docutils-doc/docs/index.html
+Files: 
+  /usr/share/doc/docutils-doc/docs/*/*.html
+  /usr/share/doc/docutils-doc/docs/*/*/*.html
+
+Format: Text
+Index: /usr/share/doc/python-docutils/docs/index.txt
+Files: 
+  /usr/share/doc/docutils-doc/docs/*/*.txt
+  /usr/share/doc/docutils-doc/docs/*/*/*.txt

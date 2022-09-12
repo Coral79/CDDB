@@ -1,0 +1,9 @@
+Document: gtkmm3.0-reference
+Section: Programming/C++
+Title: gtkmm 3.0 Reference Manual
+Author: Doxygen
+Abstract: Reference Manual for gtkmm 3.0 (C++ bindings for GTK+)
+
+Format: HTML
+Index: /usr/share/doc/gtkmm-3.0/reference/html/index.html
+Files: /usr/share/doc/gtkmm-3.0/reference/html/*.html

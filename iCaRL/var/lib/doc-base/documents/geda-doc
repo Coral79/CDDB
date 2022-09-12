@@ -1,0 +1,11 @@
+Document: geda-doc
+Section: Science/Electronics
+Title: gEDA Project Wiki
+Abstract: This section of the gEDA website is dedicated to documentation that
+ is contributed by a multitude of authors, including users. In particular, it
+ should grow into a resource of information for those who just started to work
+ with the tools.
+
+Format: HTML
+Index: /usr/share/doc/geda-doc/wiki/index.html
+Files: /usr/share/doc/geda-doc/wiki/*.html

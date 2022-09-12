@@ -1,0 +1,185 @@
+### This file is part of the dictionaries-common package.
+### It has been automatically generated.
+### DO NOT EDIT!
+
+package Debian::DictionariesCommon::dbfile;
+
+%dictionaries = (
+  'american (American English)' => {
+     'auto-compat' => 'american',
+     'casechars' => '[A-Za-z]',
+     'coding-system' => 'iso-8859-1',
+     'emacsen-name' => 'american',
+     'hash-name' => 'american',
+     'ispell-args' => '-B -d american',
+     'locale' => 'en_US',
+     'not-casechars' => '[^A-Za-z]',
+     'otherchars' => '[\']',
+     'package' => 'iamerican',
+     'pspell-ispell' => 'en-american iso8859-1'
+  },
+  'british (British English)' => {
+     'auto-compat' => 'british',
+     'casechars' => '[A-Za-z]',
+     'coding-system' => 'iso-8859-1',
+     'emacsen-name' => 'british',
+     'hash-name' => 'british',
+     'ispell-args' => '-B -d british',
+     'locale' => 'en_GB',
+     'not-casechars' => '[^A-Za-z]',
+     'otherchars' => '[\']',
+     'package' => 'ibritish',
+     'pspell-ispell' => 'en-british iso8859-1'
+  },
+  'castellano (Spanish Tex mode)' => {
+     'additionalchars' => 'áéíñóúüÁÉÍÑÓÚÜ',
+     'casechars' => '[a-z\\301\\311\\315\\321\\323\\332\\334A-Z\\341\\351\\355\\361\\363\\372\\374]',
+     'coding-system' => 'iso-8859-1',
+     'debconf-display' => 'no',
+     'emacsen-name' => 'castellano',
+     'extended-character-mode' => '~tex',
+     'hash-name' => 'espa~nol',
+     'ispell-args' => '-B',
+     'not-casechars' => '[^a-z\\301\\311\\315\\321\\323\\332\\334A-Z\\341\\351\\355\\361\\363\\372\\374]',
+     'package' => 'ispanish'
+  },
+  'castellano-utf8 (Spanish utf-8)' => {
+     'coding-system' => 'utf-8',
+     'debconf-display' => 'no',
+     'emacs-display' => 'no',
+     'emacsen-name' => 'castellano-utf8',
+     'extended-character-mode' => '~utf8',
+     'hash-name' => 'espa~nol',
+     'ispell-args' => '-B',
+     'jed-display' => 'no',
+     'package' => 'ispanish'
+  },
+  'castellano8 (Spanish 8 bit)' => {
+     'additionalchars' => 'ñáàéèíìóòúùüÑÁÀÉÈÍÌÓÒÚÙÜ',
+     'auto-compat' => 'espa~nol',
+     'casechars' => '[a-z\\340\\341\\350\\351\\354\\355\\362\\363\\371\\372\\374\\347\\361A-Z\\300\\301\\310\\311\\314\\315\\322\\323\\331\\332\\334\\307\\321]',
+     'coding-system' => 'iso-8859-1',
+     'emacsen-name' => 'castellano8',
+     'extended-character-mode' => '~latin1',
+     'hash-name' => 'espa~nol',
+     'ispell-args' => '-B',
+     'not-casechars' => '[^a-z\\340\\341\\350\\351\\354\\355\\362\\363\\371\\372\\374\\347\\361A-Z\\300\\301\\310\\311\\314\\315\\322\\323\\331\\332\\334\\307\\321]',
+     'package' => 'ispanish'
+  },
+  'deutsch (New German -tex mode-)' => {
+     'additionalchars' => '\\"',
+     'casechars' => '[A-Za-z\\"]',
+     'coding-system' => 'iso-8859-1',
+     'emacsen-name' => 'german-new',
+     'extended-character-mode' => '~tex',
+     'hash-name' => 'ngerman',
+     'ispell-args' => '-C -d ngerman',
+     'locale' => 'de_DE',
+     'many-otherchars' => 'no',
+     'not-casechars' => '[^A-Za-z\\"]',
+     'otherchars' => '[\']',
+     'package' => 'ingerman'
+  },
+  'deutsch (New German 8 bit)' => {
+     'additionalchars' => 'ÄÖÜäößü',
+     'auto-compat' => 'ngerman',
+     'casechars' => '[A-Za-zÄÖÜäößü]',
+     'coding-system' => 'iso-8859-1',
+     'emacsen-name' => 'german-new8',
+     'extended-character-mode' => '~latin1',
+     'hash-name' => 'ngerman',
+     'ispell-args' => '-C -d ngerman',
+     'locale' => 'de_DE',
+     'many-otherchars' => 'no',
+     'not-casechars' => '[^A-Za-zÄÖÜäößü]',
+     'otherchars' => '[\']',
+     'package' => 'ingerman'
+  },
+  'deutsch (Old German -tex mode-)' => {
+     'additionalchars' => '\\"',
+     'casechars' => '[A-Za-z\\"]',
+     'coding-system' => 'iso-8859-1',
+     'emacsen-name' => 'german-old',
+     'extended-character-mode' => '~tex',
+     'hash-name' => 'ogerman',
+     'ispell-args' => '-C -d ogerman',
+     'locale' => 'de_DE',
+     'many-otherchars' => 'no',
+     'not-casechars' => '[^A-Za-z\\"]',
+     'otherchars' => '[\']',
+     'package' => 'iogerman'
+  },
+  'deutsch (Old German 8 bit)' => {
+     'additionalchars' => 'ÄÖÜäößü',
+     'auto-compat' => 'ogerman',
+     'casechars' => '[A-Za-zÄÖÜäößü]',
+     'coding-system' => 'iso-8859-1',
+     'emacsen-name' => 'german-old8',
+     'extended-character-mode' => '~latin1',
+     'hash-name' => 'ogerman',
+     'ispell-args' => '-C -d ogerman',
+     'locale' => 'de_DE',
+     'many-otherchars' => 'no',
+     'not-casechars' => '[^A-Za-zÄÖÜäößü]',
+     'otherchars' => '[\']',
+     'package' => 'iogerman'
+  },
+  'deutsch (Swiss German -tex mode-)' => {
+     'additionalchars' => '\\"',
+     'casechars' => '[A-Za-z\\"]',
+     'coding-system' => 'iso-8859-1',
+     'emacsen-name' => 'swiss',
+     'extended-character-mode' => '~tex',
+     'hash-name' => 'swiss',
+     'ispell-args' => '-C -d swiss',
+     'locale' => 'de_CH',
+     'many-otherchars' => 'no',
+     'not-casechars' => '[^A-Za-z\\"]',
+     'otherchars' => '[\']',
+     'package' => 'iswiss'
+  },
+  'deutsch (Swiss German 8 bit)' => {
+     'additionalchars' => 'ÄÖÜäößü',
+     'auto-compat' => 'swiss',
+     'casechars' => '[A-Za-zÄÖÜäößü]',
+     'coding-system' => 'iso-8859-1',
+     'emacsen-name' => 'swiss8',
+     'extended-character-mode' => '~latin1',
+     'hash-name' => 'swiss',
+     'ispell-args' => '-C -d swiss',
+     'locale' => 'de_CH',
+     'many-otherchars' => 'no',
+     'not-casechars' => '[^A-Za-zÄÖÜäößü]',
+     'otherchars' => '[\']',
+     'package' => 'iswiss'
+  },
+  'francais Hydro-Quebec (French Hydro-Quebec)' => {
+     'additionalchars' => 'ÀÂÇÈÉÊËÎÏÔÙÛÜàâçèéêëîïôùûü',
+     'auto-compat' => 'french',
+     'casechars' => '[A-Za-zÀÂÇÈÉÊËÎÏÔÙÛÜàâçèéêëîïôùûü]',
+     'coding-system' => 'iso-8859-1',
+     'emacsen-name' => 'francais',
+     'extended-character-mode' => '~list',
+     'hash-name' => 'french',
+     'many-otherchars' => 'yes',
+     'not-casechars' => '[^A-Za-zÀÂÇÈÉÊËÎÏÔÙÛÜàâçèéêëîïôùûü]',
+     'otherchars' => '[-\']',
+     'package' => 'ifrench',
+     'pspell-ispell' => 'fr iso8859-1'
+  },
+  'italiano (Italian)' => {
+     'additionalchars' => 'ÀÁÈÉÌÍÒÓÙÚàáèéìíóùú',
+     'casechars' => '[A-Z\\300\\301\\310\\311\\314\\315\\322\\323\\331\\332a-z\\340\\341\\350\\351\\354\\355\\363\\371\\372]',
+     'coding-system' => 'iso-8859-1',
+     'emacsen-name' => 'italiano',
+     'extended-character-mode' => '~tex',
+     'hash-name' => 'italian',
+     'ispell-args' => '-B -d italian',
+     'not-casechars' => '[^A-Z\\300\\301\\310\\311\\314\\315\\322\\323\\331\\332a-z\\340\\341\\350\\351\\354\\355\\363\\371\\372]',
+     'otherchars' => '[-]',
+     'package' => 'iitalian',
+     'pspell-ispell' => 'it iso8859-1'
+  }
+);
+
+1;

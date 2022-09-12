@@ -1,0 +1,8 @@
+Document: po-debconf
+Section: Text
+Title: Vietnamese translation of the po-debconf manpages
+Author: Clytie Siddall
+
+Format: HTML
+Index: /usr/share/doc/po-debconf/manpages.vi/
+Files: /usr/share/doc/po-debconf/manpages.vi/*.html
