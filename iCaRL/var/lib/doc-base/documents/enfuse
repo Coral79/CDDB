@@ -1,0 +1,13 @@
+Document: enfuse
+Section: Graphics
+Title: Enfuse Manual
+Author: Andrew Mihal <acmihal@users.sourceforge.net>
+Abstract: This is the manual for Enfuse, a program to merge different exposures
+ of the same scene to produce an image that looks much like a tonemapped image.
+
+Format: HTML
+Index: /usr/share/doc/enfuse/html/enfuse.html
+Files: /usr/share/doc/enfuse/html/*.html
+
+Format: PDF
+Files: /usr/share/doc/enfuse/enfuse.pdf

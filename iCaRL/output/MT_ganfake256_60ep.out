@@ -1,0 +1,1674 @@
+----------------- Options ---------------
+               add_binary: False                         
+               batch_size: 32                            	[default: 64]
+                   binary: False                         
+              binary_loss: sum_b_sig                     
+            binary_weight: 0.5                           
+                blur_prob: 0                             
+                 blur_sig: 0.5                           
+          checkpoints_dir: /srv/beegfs02/scratch/generative_modeling/data/Deepfake/Adam-NSCL/checkpoints	[default: ./checkpoints]
+                class_bal: False                         
+           continue_train: False                         
+                 cropSize: 224                           
+                 data_aug: False                         
+                 dataroot: /srv/beegfs02/scratch/generative_modeling/data/Deepfake/DoGAN_data/new/GanFake	[default: /srv/beegfs02/scratch/generative_modeling/data/Deepfake/Adam-NSCL]
+          earlystop_epoch: 5                             
+                    epoch: latest                        
+                 fine_tun: False                         
+                    gpuid: [1]                           
+                init_gain: 0.02                          
+                  init_lr: 0.001                         	[default: 0.0005]
+                init_type: normal                        
+                  isTrain: True                          	[default: None]
+               jpg_method: cv2                           
+                 jpg_prob: 0                             
+                 jpg_qual: 75                            
+          label_smoothing: False                         
+                 loadSize: 256                           
+                    mixup: False                         
+              mixup_alpha: 0.1                           
+                     mode: binary                        
+               model_name: resnet18                      
+               model_type: resnet                        
+            model_weights: None                          
+               multiclass: [1, 1, 0, 1, 1]               	[default: [1]]
+                     name: icarl_ganfake_256_60          	[default: experiment_name]
+                nb_protos: 256                           	[default: 128]
+                  no_flip: False                         
+              num_classes: 2                             
+               num_epochs: 60                            	[default: 12]
+              num_threads: 4                             
+                  outfile: temp_0.1.csv                  
+            pretrain_name:                               
+           resize_or_crop: scale_and_crop                
+                rz_interp: bilinear                      
+          save_epoch_freq: 20                            
+         save_latest_freq: 2000                          
+                 schedule: [20, 40, 60]                  	[default: [10]]
+           serial_batches: False                         
+          smoothing_alpha: 0.1                           
+                   suffix:                               
+                task_name: cyclegan,progan256,progan1024,glow,stargan	[default: ]
+              train_split: train                         
+                val_split: val                           
+----------------- End -------------------
+{'All': 10}
+Task order: ['cyclegan', 'progan256', 'progan1024', 'glow', 'stargan']
+Classes in this batch: tensor([0, 1])
+Data Size: 7196
+
+
+Before first epoch
+  validation loss:		0.651198
+  top 1 accuracy:		41.60 %
+  top 2 accuracy:		55.37 %
+Batch of classes number 1 arrives ...
+0.363750696182251
+0.04940526932477951
+0.04895763471722603
+Batch of classes 1 out of 5 batches
+Epoch 1 of 60 took 220.676s
+  training loss:		0.074228
+  validation loss:		0.090153
+  top 1 accuracy:		80.98 %
+  top 2 accuracy:		100.00 %
+0.037576112896203995
+0.06218689680099487
+0.13817255198955536
+Batch of classes 1 out of 5 batches
+Epoch 2 of 60 took 153.743s
+  training loss:		0.057661
+  validation loss:		0.124748
+  top 1 accuracy:		69.08 %
+  top 2 accuracy:		100.00 %
+0.04764487221837044
+0.03346943482756615
+0.030039886012673378
+Batch of classes 1 out of 5 batches
+Epoch 3 of 60 took 71.633s
+  training loss:		0.045567
+  validation loss:		0.229225
+  top 1 accuracy:		68.12 %
+  top 2 accuracy:		100.00 %
+0.024086076766252518
+0.05545775964856148
+0.016537845134735107
+Batch of classes 1 out of 5 batches
+Epoch 4 of 60 took 70.511s
+  training loss:		0.034503
+  validation loss:		0.307273
+  top 1 accuracy:		71.19 %
+  top 2 accuracy:		99.65 %
+0.031061459332704544
+0.024192696437239647
+0.0431954562664032
+Batch of classes 1 out of 5 batches
+Epoch 5 of 60 took 70.044s
+  training loss:		0.027329
+  validation loss:		0.448157
+  top 1 accuracy:		72.81 %
+  top 2 accuracy:		98.08 %
+0.010821330361068249
+0.01148830633610487
+0.009817846119403839
+Batch of classes 1 out of 5 batches
+Epoch 6 of 60 took 71.911s
+  training loss:		0.026082
+  validation loss:		0.202634
+  top 1 accuracy:		75.60 %
+  top 2 accuracy:		100.00 %
+0.019848523661494255
+0.01985062099993229
+0.005809028632938862
+Batch of classes 1 out of 5 batches
+Epoch 7 of 60 took 71.764s
+  training loss:		0.022909
+  validation loss:		0.195338
+  top 1 accuracy:		76.38 %
+  top 2 accuracy:		100.00 %
+0.005207057576626539
+0.02092786692082882
+0.0018376987427473068
+Batch of classes 1 out of 5 batches
+Epoch 8 of 60 took 71.991s
+  training loss:		0.016303
+  validation loss:		0.174277
+  top 1 accuracy:		77.85 %
+  top 2 accuracy:		100.00 %
+0.01662609539926052
+0.0016918190522119403
+0.002406897721812129
+Batch of classes 1 out of 5 batches
+Epoch 9 of 60 took 71.871s
+  training loss:		0.017547
+  validation loss:		0.184437
+  top 1 accuracy:		75.92 %
+  top 2 accuracy:		100.00 %
+0.017470678314566612
+0.04000711813569069
+0.027147412300109863
+Batch of classes 1 out of 5 batches
+Epoch 10 of 60 took 71.818s
+  training loss:		0.018542
+  validation loss:		0.817339
+  top 1 accuracy:		73.35 %
+  top 2 accuracy:		93.73 %
+0.05118215084075928
+0.04147915169596672
+0.026995548978447914
+Batch of classes 1 out of 5 batches
+Epoch 11 of 60 took 71.843s
+  training loss:		0.016494
+  validation loss:		0.346946
+  top 1 accuracy:		75.33 %
+  top 2 accuracy:		99.58 %
+0.04939157888293266
+0.00891792681068182
+0.0019461264600977302
+Batch of classes 1 out of 5 batches
+Epoch 12 of 60 took 72.026s
+  training loss:		0.011836
+  validation loss:		0.401207
+  top 1 accuracy:		74.94 %
+  top 2 accuracy:		96.75 %
+0.00514396233484149
+0.04300852492451668
+0.0009184085647575557
+Batch of classes 1 out of 5 batches
+Epoch 13 of 60 took 72.130s
+  training loss:		0.013995
+  validation loss:		0.251237
+  top 1 accuracy:		76.60 %
+  top 2 accuracy:		99.54 %
+0.008342220447957516
+0.002334245014935732
+0.009351241402328014
+Batch of classes 1 out of 5 batches
+Epoch 14 of 60 took 71.587s
+  training loss:		0.016206
+  validation loss:		0.270788
+  top 1 accuracy:		75.23 %
+  top 2 accuracy:		99.83 %
+0.0009108344092965126
+0.0026924433186650276
+0.003637517336755991
+Batch of classes 1 out of 5 batches
+Epoch 15 of 60 took 71.413s
+  training loss:		0.013725
+  validation loss:		1.785760
+  top 1 accuracy:		74.96 %
+  top 2 accuracy:		82.13 %
+0.010658340528607368
+0.007194210775196552
+0.007123474031686783
+Batch of classes 1 out of 5 batches
+Epoch 16 of 60 took 70.982s
+  training loss:		0.012991
+  validation loss:		0.614416
+  top 1 accuracy:		74.23 %
+  top 2 accuracy:		99.02 %
+0.02924119494855404
+0.012967074289917946
+0.007675882428884506
+Batch of classes 1 out of 5 batches
+Epoch 17 of 60 took 70.661s
+  training loss:		0.012830
+  validation loss:		0.149240
+  top 1 accuracy:		76.40 %
+  top 2 accuracy:		100.00 %
+0.006719669792801142
+0.015380382537841797
+0.010158522985875607
+Batch of classes 1 out of 5 batches
+Epoch 18 of 60 took 72.238s
+  training loss:		0.013076
+  validation loss:		0.191604
+  top 1 accuracy:		78.65 %
+  top 2 accuracy:		99.73 %
+0.008706080727279186
+0.009575379081070423
+0.0037715553771704435
+Batch of classes 1 out of 5 batches
+Epoch 19 of 60 took 71.707s
+  training loss:		0.011142
+  validation loss:		0.551426
+  top 1 accuracy:		75.17 %
+  top 2 accuracy:		95.83 %
+0.08430134505033493
+0.009108439087867737
+0.0042480467818677425
+Batch of classes 1 out of 5 batches
+Epoch 20 of 60 took 71.700s
+  training loss:		0.014039
+  validation loss:		0.370454
+  top 1 accuracy:		75.25 %
+  top 2 accuracy:		98.60 %
+0.009718386456370354
+0.023026293143630028
+0.0036770463921129704
+Batch of classes 1 out of 5 batches
+Epoch 21 of 60 took 71.625s
+  training loss:		0.005518
+  validation loss:		0.296184
+  top 1 accuracy:		75.69 %
+  top 2 accuracy:		99.65 %
+0.0007312783855013549
+0.0008533817017450929
+0.0001716954866424203
+Batch of classes 1 out of 5 batches
+Epoch 22 of 60 took 71.780s
+  training loss:		0.003589
+  validation loss:		0.309655
+  top 1 accuracy:		75.50 %
+  top 2 accuracy:		99.85 %
+0.00036746737896464765
+0.003651820821687579
+0.0004970176960341632
+Batch of classes 1 out of 5 batches
+Epoch 23 of 60 took 72.226s
+  training loss:		0.003756
+  validation loss:		0.306709
+  top 1 accuracy:		75.73 %
+  top 2 accuracy:		99.40 %
+0.009054595604538918
+0.0001394193823216483
+0.0006413615774363279
+Batch of classes 1 out of 5 batches
+Epoch 24 of 60 took 72.083s
+  training loss:		0.003718
+  validation loss:		0.423652
+  top 1 accuracy:		75.04 %
+  top 2 accuracy:		96.88 %
+0.0012642588699236512
+0.0025879167951643467
+0.0039003186393529177
+Batch of classes 1 out of 5 batches
+Epoch 25 of 60 took 72.092s
+  training loss:		0.003780
+  validation loss:		0.393487
+  top 1 accuracy:		75.29 %
+  top 2 accuracy:		97.60 %
+0.0008594405953772366
+0.002330661518499255
+5.1525137678254396e-05
+Batch of classes 1 out of 5 batches
+Epoch 26 of 60 took 72.008s
+  training loss:		0.003581
+  validation loss:		0.327008
+  top 1 accuracy:		75.23 %
+  top 2 accuracy:		99.65 %
+0.00021820641995873302
+0.00024122209288179874
+0.0001836015871958807
+Batch of classes 1 out of 5 batches
+Epoch 27 of 60 took 71.637s
+  training loss:		0.003636
+  validation loss:		0.483970
+  top 1 accuracy:		74.98 %
+  top 2 accuracy:		93.27 %
+0.00027283915551379323
+0.011902905069291592
+0.00010718547127908096
+Batch of classes 1 out of 5 batches
+Epoch 28 of 60 took 70.761s
+  training loss:		0.003239
+  validation loss:		0.440564
+  top 1 accuracy:		75.08 %
+  top 2 accuracy:		97.10 %
+0.0008148333290591836
+0.00010470791312400252
+0.01361059583723545
+Batch of classes 1 out of 5 batches
+Epoch 29 of 60 took 70.634s
+  training loss:		0.002835
+  validation loss:		0.302141
+  top 1 accuracy:		76.08 %
+  top 2 accuracy:		99.23 %
+0.0006612056749872863
+0.00033402215922251344
+0.0006506543722935021
+Batch of classes 1 out of 5 batches
+Epoch 30 of 60 took 69.929s
+  training loss:		0.003511
+  validation loss:		0.430292
+  top 1 accuracy:		74.98 %
+  top 2 accuracy:		94.90 %
+0.0002699015603866428
+0.0015243574744090438
+0.0007538287318311632
+Batch of classes 1 out of 5 batches
+Epoch 31 of 60 took 71.774s
+  training loss:		0.003091
+  validation loss:		0.369110
+  top 1 accuracy:		75.17 %
+  top 2 accuracy:		98.79 %
+0.0003232349408790469
+6.43449166091159e-05
+0.031056443229317665
+Batch of classes 1 out of 5 batches
+Epoch 32 of 60 took 72.110s
+  training loss:		0.003414
+  validation loss:		0.351152
+  top 1 accuracy:		75.31 %
+  top 2 accuracy:		99.37 %
+0.0001352346589555964
+0.00036122178426012397
+0.0010338964639231563
+Batch of classes 1 out of 5 batches
+Epoch 33 of 60 took 72.339s
+  training loss:		0.002869
+  validation loss:		0.475890
+  top 1 accuracy:		75.02 %
+  top 2 accuracy:		94.04 %
+0.001231594942510128
+0.016848167404532433
+0.04832497611641884
+Batch of classes 1 out of 5 batches
+Epoch 34 of 60 took 73.759s
+  training loss:		0.003462
+  validation loss:		0.318955
+  top 1 accuracy:		75.25 %
+  top 2 accuracy:		99.48 %
+8.488006278639659e-05
+0.00012994118151254952
+0.0009252647287212312
+Batch of classes 1 out of 5 batches
+Epoch 35 of 60 took 73.257s
+  training loss:		0.003050
+  validation loss:		0.360986
+  top 1 accuracy:		76.15 %
+  top 2 accuracy:		96.73 %
+0.0062428852543234825
+2.3389633497572504e-05
+0.022450270131230354
+Batch of classes 1 out of 5 batches
+Epoch 36 of 60 took 72.378s
+  training loss:		0.003035
+  validation loss:		0.479559
+  top 1 accuracy:		75.19 %
+  top 2 accuracy:		94.48 %
+0.00021271845616865903
+0.002183707198128104
+0.00021588956587947905
+Batch of classes 1 out of 5 batches
+Epoch 37 of 60 took 71.891s
+  training loss:		0.002821
+  validation loss:		0.472122
+  top 1 accuracy:		74.92 %
+  top 2 accuracy:		95.85 %
+0.015335365198552608
+0.0005711886915378273
+0.010327932424843311
+Batch of classes 1 out of 5 batches
+Epoch 38 of 60 took 71.947s
+  training loss:		0.003467
+  validation loss:		0.587568
+  top 1 accuracy:		75.06 %
+  top 2 accuracy:		91.98 %
+0.0007727860938757658
+0.0002912886848207563
+0.004085019696503878
+Batch of classes 1 out of 5 batches
+Epoch 39 of 60 took 71.743s
+  training loss:		0.002763
+  validation loss:		0.288283
+  top 1 accuracy:		75.79 %
+  top 2 accuracy:		99.37 %
+0.0006380110862664878
+0.001972862286493182
+0.0022700843401253223
+Batch of classes 1 out of 5 batches
+Epoch 40 of 60 took 71.881s
+  training loss:		0.002307
+  validation loss:		0.374285
+  top 1 accuracy:		75.31 %
+  top 2 accuracy:		98.54 %
+6.992249109316617e-05
+0.0003123359347227961
+6.284386472543702e-05
+Batch of classes 1 out of 5 batches
+Epoch 41 of 60 took 70.780s
+  training loss:		0.001077
+  validation loss:		0.443280
+  top 1 accuracy:		75.17 %
+  top 2 accuracy:		95.96 %
+4.023444125778042e-05
+0.00018861598800867796
+0.0002560027060098946
+Batch of classes 1 out of 5 batches
+Epoch 42 of 60 took 70.545s
+  training loss:		0.001156
+  validation loss:		0.393736
+  top 1 accuracy:		75.15 %
+  top 2 accuracy:		97.94 %
+0.00010079905769089237
+2.8577458579093218e-05
+6.132014095783234e-05
+Batch of classes 1 out of 5 batches
+Epoch 43 of 60 took 72.241s
+  training loss:		0.000814
+  validation loss:		0.270953
+  top 1 accuracy:		76.63 %
+  top 2 accuracy:		98.83 %
+0.0004529036523308605
+5.33975035068579e-05
+0.00023702438920736313
+Batch of classes 1 out of 5 batches
+Epoch 44 of 60 took 71.890s
+  training loss:		0.000983
+  validation loss:		0.327082
+  top 1 accuracy:		75.77 %
+  top 2 accuracy:		98.48 %
+0.000750410312321037
+3.8367576053133234e-05
+1.849157524702605e-05
+Batch of classes 1 out of 5 batches
+Epoch 45 of 60 took 72.279s
+  training loss:		0.001367
+  validation loss:		0.228358
+  top 1 accuracy:		77.35 %
+  top 2 accuracy:		99.62 %
+0.006607001181691885
+0.0012654232559725642
+0.0009592260466888547
+Batch of classes 1 out of 5 batches
+Epoch 46 of 60 took 72.345s
+  training loss:		0.001474
+  validation loss:		0.675776
+  top 1 accuracy:		75.00 %
+  top 2 accuracy:		88.19 %
+0.0018130589742213488
+5.02335860801395e-05
+0.0001590253523318097
+Batch of classes 1 out of 5 batches
+Epoch 47 of 60 took 72.504s
+  training loss:		0.001131
+  validation loss:		0.472487
+  top 1 accuracy:		75.08 %
+  top 2 accuracy:		94.33 %
+0.00021063876920379698
+0.00010701503924792632
+0.00048236941802315414
+Batch of classes 1 out of 5 batches
+Epoch 48 of 60 took 72.124s
+  training loss:		0.001062
+  validation loss:		0.482061
+  top 1 accuracy:		75.15 %
+  top 2 accuracy:		92.60 %
+0.00039073405787348747
+2.7153471819474362e-05
+7.418327004415914e-05
+Batch of classes 1 out of 5 batches
+Epoch 49 of 60 took 72.325s
+  training loss:		0.000855
+  validation loss:		0.324260
+  top 1 accuracy:		75.65 %
+  top 2 accuracy:		98.67 %
+5.806814806419425e-05
+1.636329216125887e-05
+0.00014877617650199682
+Batch of classes 1 out of 5 batches
+Epoch 50 of 60 took 72.105s
+  training loss:		0.001146
+  validation loss:		0.434897
+  top 1 accuracy:		75.13 %
+  top 2 accuracy:		95.15 %
+3.612949149101041e-05
+8.62497981870547e-05
+6.526163633679971e-05
+Batch of classes 1 out of 5 batches
+Epoch 51 of 60 took 71.938s
+  training loss:		0.000881
+  validation loss:		0.504684
+  top 1 accuracy:		75.10 %
+  top 2 accuracy:		93.60 %
+5.401916496339254e-05
+0.0009265799890272319
+0.00011780647764680907
+Batch of classes 1 out of 5 batches
+Epoch 52 of 60 took 70.490s
+  training loss:		0.000792
+  validation loss:		0.445797
+  top 1 accuracy:		75.17 %
+  top 2 accuracy:		95.06 %
+0.0007139164954423904
+0.0002113992813974619
+0.00020979616965632886
+Batch of classes 1 out of 5 batches
+Epoch 53 of 60 took 70.489s
+  training loss:		0.000522
+  validation loss:		0.381185
+  top 1 accuracy:		75.42 %
+  top 2 accuracy:		97.58 %
+9.399596456205472e-05
+1.421683464286616e-05
+0.0009624181548133492
+Batch of classes 1 out of 5 batches
+Epoch 54 of 60 took 70.217s
+  training loss:		0.000944
+  validation loss:		0.279744
+  top 1 accuracy:		77.08 %
+  top 2 accuracy:		98.71 %
+0.0012980981264263391
+0.00016085771494545043
+0.00022690105834044516
+Batch of classes 1 out of 5 batches
+Epoch 55 of 60 took 72.314s
+  training loss:		0.001081
+  validation loss:		0.262103
+  top 1 accuracy:		76.58 %
+  top 2 accuracy:		99.77 %
+3.1145737011684105e-05
+3.69309818779584e-05
+9.813930228119716e-05
+Batch of classes 1 out of 5 batches
+Epoch 56 of 60 took 72.259s
+  training loss:		0.000444
+  validation loss:		0.310800
+  top 1 accuracy:		75.67 %
+  top 2 accuracy:		99.21 %
+4.45279547420796e-05
+4.118049764656462e-05
+0.00016185216372832656
+Batch of classes 1 out of 5 batches
+Epoch 57 of 60 took 72.162s
+  training loss:		0.000574
+  validation loss:		0.416507
+  top 1 accuracy:		75.27 %
+  top 2 accuracy:		95.27 %
+0.0002925932640209794
+0.0001250972127309069
+3.228327841497958e-05
+Batch of classes 1 out of 5 batches
+Epoch 58 of 60 took 71.984s
+  training loss:		0.000710
+  validation loss:		0.310271
+  top 1 accuracy:		75.65 %
+  top 2 accuracy:		99.42 %
+7.738843851257116e-05
+0.0007806578068993986
+1.3295604730956256e-05
+Batch of classes 1 out of 5 batches
+Epoch 59 of 60 took 72.593s
+  training loss:		0.000782
+  validation loss:		0.312815
+  top 1 accuracy:		75.56 %
+  top 2 accuracy:		99.33 %
+3.302550976513885e-05
+9.114748536376283e-05
+0.0013866500230506063
+Batch of classes 1 out of 5 batches
+Epoch 60 of 60 took 70.919s
+  training loss:		0.000702
+  validation loss:		0.283345
+  top 1 accuracy:		75.88 %
+  top 2 accuracy:		99.62 %
+Updating exemplar set...
+Computing mean-of_exemplars and theoretical mean...
+tensor(500)
+tensor(500)
+Computing accuracy on the original batch of classes...
+Final results on cyclegan classes:
+  top 1 accuracy iCaRL          :		75.85 %
+  top 1 accuracy Hybrid 1       :		75.88 %
+  top 1 accuracy NCM            :		75.88 %
+Binary accuracy:
+Final results on cyclegan classes:
+  top 1 accuracy iCaRL          :		75.85 %
+  top 1 accuracy Hybrid 1       :		75.88 %
+  top 1 accuracy NCM            :		75.88 %
+Final results on cumul of classes:
+  top 1 accuracy iCaRL          :		75.85 %
+  top 1 accuracy Hybrid 1       :		75.88 %
+  top 1 accuracy NCM            :		75.88 %
+Binary accuracy:
+Final results on binary cumul of classes:
+  top 1 accuracy iCaRL          :		75.85 %
+  top 1 accuracy Hybrid 1       :		75.88 %
+  top 1 accuracy NCM            :		75.88 %
+Classes in this batch: tensor([2, 3])
+Data Size: 7200
+
+
+Before first epoch
+  validation loss:		4.462320
+  top 1 accuracy:		0.00 %
+  top 2 accuracy:		1.75 %
+Batch of classes number 2 arrives ...
+1.0642398595809937
+0.1279592663049698
+0.13218021392822266
+Batch of classes 2 out of 5 batches
+Epoch 1 of 60 took 85.341s
+  training loss:		0.174251
+  validation loss:		1.065587
+  top 1 accuracy:		0.00 %
+  top 2 accuracy:		62.15 %
+0.14861778914928436
+0.12197043746709824
+0.12552855908870697
+Batch of classes 2 out of 5 batches
+Epoch 2 of 60 took 85.305s
+  training loss:		0.130655
+  validation loss:		0.846652
+  top 1 accuracy:		0.42 %
+  top 2 accuracy:		71.29 %
+0.12208761274814606
+0.14596663415431976
+0.11517838388681412
+Batch of classes 2 out of 5 batches
+Epoch 3 of 60 took 84.887s
+  training loss:		0.120624
+  validation loss:		0.968730
+  top 1 accuracy:		3.10 %
+  top 2 accuracy:		75.52 %
+0.13492321968078613
+0.09215696901082993
+0.06945861876010895
+Batch of classes 2 out of 5 batches
+Epoch 4 of 60 took 85.053s
+  training loss:		0.098900
+  validation loss:		1.075184
+  top 1 accuracy:		0.77 %
+  top 2 accuracy:		89.33 %
+0.08797789365053177
+0.09570515900850296
+0.09514918923377991
+Batch of classes 2 out of 5 batches
+Epoch 5 of 60 took 85.388s
+  training loss:		0.073094
+  validation loss:		0.908381
+  top 1 accuracy:		6.73 %
+  top 2 accuracy:		71.67 %
+0.10753502696752548
+0.05326974391937256
+0.07269761711359024
+Batch of classes 2 out of 5 batches
+Epoch 6 of 60 took 84.899s
+  training loss:		0.064450
+  validation loss:		1.107472
+  top 1 accuracy:		0.08 %
+  top 2 accuracy:		93.90 %
+0.06119505316019058
+0.08044208586215973
+0.042990121990442276
+Batch of classes 2 out of 5 batches
+Epoch 7 of 60 took 84.971s
+  training loss:		0.056365
+  validation loss:		0.896972
+  top 1 accuracy:		8.02 %
+  top 2 accuracy:		90.52 %
+0.05861276388168335
+0.04287407919764519
+0.025225793942809105
+Batch of classes 2 out of 5 batches
+Epoch 8 of 60 took 85.314s
+  training loss:		0.050930
+  validation loss:		0.951221
+  top 1 accuracy:		11.08 %
+  top 2 accuracy:		97.37 %
+0.020960457623004913
+0.03851122409105301
+0.05002192407846451
+Batch of classes 2 out of 5 batches
+Epoch 9 of 60 took 85.065s
+  training loss:		0.044216
+  validation loss:		0.906271
+  top 1 accuracy:		1.81 %
+  top 2 accuracy:		87.21 %
+0.03660616651177406
+0.06170949339866638
+0.024512087926268578
+Batch of classes 2 out of 5 batches
+Epoch 10 of 60 took 84.103s
+  training loss:		0.035968
+  validation loss:		0.907470
+  top 1 accuracy:		27.73 %
+  top 2 accuracy:		87.90 %
+0.017934830859303474
+0.0445108637213707
+0.1744704693555832
+Batch of classes 2 out of 5 batches
+Epoch 11 of 60 took 83.988s
+  training loss:		0.024697
+  validation loss:		0.854783
+  top 1 accuracy:		6.00 %
+  top 2 accuracy:		95.23 %
+0.023059194907546043
+0.027619896456599236
+0.040458809584379196
+Batch of classes 2 out of 5 batches
+Epoch 12 of 60 took 84.360s
+  training loss:		0.021948
+  validation loss:		1.068074
+  top 1 accuracy:		18.00 %
+  top 2 accuracy:		97.77 %
+0.009450024925172329
+0.007505690213292837
+0.027944529429078102
+Batch of classes 2 out of 5 batches
+Epoch 13 of 60 took 84.964s
+  training loss:		0.018738
+  validation loss:		0.993763
+  top 1 accuracy:		17.29 %
+  top 2 accuracy:		97.25 %
+0.012909459881484509
+0.006000017747282982
+0.01891026459634304
+Batch of classes 2 out of 5 batches
+Epoch 14 of 60 took 85.065s
+  training loss:		0.016332
+  validation loss:		0.941214
+  top 1 accuracy:		32.27 %
+  top 2 accuracy:		94.42 %
+0.01283274870365858
+0.013479110784828663
+0.033283721655607224
+Batch of classes 2 out of 5 batches
+Epoch 15 of 60 took 85.798s
+  training loss:		0.016748
+  validation loss:		0.977560
+  top 1 accuracy:		6.69 %
+  top 2 accuracy:		98.81 %
+0.011402970179915428
+0.011501583270728588
+0.038759805262088776
+Batch of classes 2 out of 5 batches
+Epoch 16 of 60 took 85.455s
+  training loss:		0.015117
+  validation loss:		0.961273
+  top 1 accuracy:		34.15 %
+  top 2 accuracy:		99.35 %
+0.014749106951057911
+0.011259987019002438
+0.016463059931993484
+Batch of classes 2 out of 5 batches
+Epoch 17 of 60 took 85.027s
+  training loss:		0.012053
+  validation loss:		0.841098
+  top 1 accuracy:		29.31 %
+  top 2 accuracy:		97.98 %
+0.002879886655136943
+0.008770002983510494
+0.004095666576176882
+Batch of classes 2 out of 5 batches
+Epoch 18 of 60 took 84.884s
+  training loss:		0.013002
+  validation loss:		0.917587
+  top 1 accuracy:		24.23 %
+  top 2 accuracy:		94.46 %
+0.01810423657298088
+0.0014358466723933816
+0.022685283794999123
+Batch of classes 2 out of 5 batches
+Epoch 19 of 60 took 84.765s
+  training loss:		0.011079
+  validation loss:		0.809409
+  top 1 accuracy:		54.73 %
+  top 2 accuracy:		98.69 %
+0.005093878600746393
+0.017192477360367775
+0.018786367028951645
+Batch of classes 2 out of 5 batches
+Epoch 20 of 60 took 84.357s
+  training loss:		0.011943
+  validation loss:		0.903719
+  top 1 accuracy:		34.65 %
+  top 2 accuracy:		97.23 %
+0.0023491522297263145
+0.03623371943831444
+0.0022442485205829144
+Batch of classes 2 out of 5 batches
+Epoch 21 of 60 took 83.839s
+  training loss:		0.006428
+  validation loss:		0.887671
+  top 1 accuracy:		42.04 %
+  top 2 accuracy:		98.96 %
+0.00970972329378128
+0.00103000330273062
+0.0009404851007275283
+Batch of classes 2 out of 5 batches
+Epoch 22 of 60 took 82.504s
+  training loss:		0.006335
+  validation loss:		0.876660
+  top 1 accuracy:		52.60 %
+  top 2 accuracy:		99.52 %
+0.0027222633361816406
+0.001132554025389254
+0.0022011518012732267
+Batch of classes 2 out of 5 batches
+Epoch 23 of 60 took 85.033s
+  training loss:		0.006195
+  validation loss:		0.883134
+  top 1 accuracy:		45.15 %
+  top 2 accuracy:		99.04 %
+0.016381381079554558
+0.000860176922287792
+0.0035626739263534546
+Batch of classes 2 out of 5 batches
+Epoch 24 of 60 took 84.838s
+  training loss:		0.004754
+  validation loss:		0.812149
+  top 1 accuracy:		68.21 %
+  top 2 accuracy:		99.71 %
+0.007279413286596537
+0.004712823312729597
+0.0020409557037055492
+Batch of classes 2 out of 5 batches
+Epoch 25 of 60 took 84.911s
+  training loss:		0.004064
+  validation loss:		0.941634
+  top 1 accuracy:		42.88 %
+  top 2 accuracy:		99.00 %
+0.00452052429318428
+0.004249908495694399
+0.0033299678470939398
+Batch of classes 2 out of 5 batches
+Epoch 26 of 60 took 85.119s
+  training loss:		0.004229
+  validation loss:		0.970738
+  top 1 accuracy:		48.63 %
+  top 2 accuracy:		99.23 %
+0.004124519880861044
+0.006163883488625288
+0.0003683313843794167
+Batch of classes 2 out of 5 batches
+Epoch 27 of 60 took 84.795s
+  training loss:		0.004264
+  validation loss:		0.848441
+  top 1 accuracy:		61.10 %
+  top 2 accuracy:		99.29 %
+0.0014377158368006349
+0.008996687829494476
+0.003641249379143119
+Batch of classes 2 out of 5 batches
+Epoch 28 of 60 took 108.851s
+  training loss:		0.003917
+  validation loss:		0.872632
+  top 1 accuracy:		59.60 %
+  top 2 accuracy:		99.33 %
+0.0011454352643340826
+0.0009739705710671842
+0.0020967749878764153
+Batch of classes 2 out of 5 batches
+Epoch 29 of 60 took 85.159s
+  training loss:		0.003708
+  validation loss:		0.902214
+  top 1 accuracy:		59.54 %
+  top 2 accuracy:		98.98 %
+0.0003495541459415108
+0.0011874329065904021
+0.0017884094268083572
+Batch of classes 2 out of 5 batches
+Epoch 30 of 60 took 85.009s
+  training loss:		0.005464
+  validation loss:		0.854280
+  top 1 accuracy:		55.60 %
+  top 2 accuracy:		98.92 %
+0.004776147194206715
+0.00838405080139637
+0.003432877128943801
+Batch of classes 2 out of 5 batches
+Epoch 31 of 60 took 84.416s
+  training loss:		0.005921
+  validation loss:		0.820935
+  top 1 accuracy:		64.77 %
+  top 2 accuracy:		99.15 %
+0.0005953451036475599
+0.01676071435213089
+0.0018158931052312255
+Batch of classes 2 out of 5 batches
+Epoch 32 of 60 took 83.744s
+  training loss:		0.005526
+  validation loss:		0.897695
+  top 1 accuracy:		60.12 %
+  top 2 accuracy:		99.37 %
+0.0006178582552820444
+0.006909736432135105
+0.001116069033741951
+Batch of classes 2 out of 5 batches
+Epoch 33 of 60 took 84.983s
+  training loss:		0.003415
+  validation loss:		0.870840
+  top 1 accuracy:		70.31 %
+  top 2 accuracy:		99.71 %
+0.001930343802087009
+0.00037274466012604535
+0.002386111533269286
+Batch of classes 2 out of 5 batches
+Epoch 34 of 60 took 85.204s
+  training loss:		0.004108
+  validation loss:		0.931029
+  top 1 accuracy:		53.69 %
+  top 2 accuracy:		99.29 %
+0.0013450381811708212
+0.000373413524357602
+0.0009556032600812614
+Batch of classes 2 out of 5 batches
+Epoch 35 of 60 took 85.319s
+  training loss:		0.004461
+  validation loss:		0.939563
+  top 1 accuracy:		30.65 %
+  top 2 accuracy:		98.33 %
+0.004358797799795866
+0.002852108096703887
+0.00892584677785635
+Batch of classes 2 out of 5 batches
+Epoch 36 of 60 took 85.344s
+  training loss:		0.003981
+  validation loss:		0.882540
+  top 1 accuracy:		65.96 %
+  top 2 accuracy:		99.60 %
+0.001215863972902298
+0.003960371948778629
+0.00039306338294409215
+Batch of classes 2 out of 5 batches
+Epoch 37 of 60 took 85.370s
+  training loss:		0.003610
+  validation loss:		0.936082
+  top 1 accuracy:		69.38 %
+  top 2 accuracy:		99.67 %
+0.0012786735314875841
+0.0018869176274165511
+0.0004176523652859032
+Batch of classes 2 out of 5 batches
+Epoch 38 of 60 took 85.361s
+  training loss:		0.004121
+  validation loss:		0.914150
+  top 1 accuracy:		67.12 %
+  top 2 accuracy:		99.92 %
+0.049241941422224045
+0.0014511164044961333
+0.000412576220696792
+Batch of classes 2 out of 5 batches
+Epoch 39 of 60 took 85.194s
+  training loss:		0.005701
+  validation loss:		0.917817
+  top 1 accuracy:		55.42 %
+  top 2 accuracy:		99.75 %
+0.006978973746299744
+0.0014322868082672358
+0.004563266411423683
+Batch of classes 2 out of 5 batches
+Epoch 40 of 60 took 85.241s
+  training loss:		0.003947
+  validation loss:		0.800639
+  top 1 accuracy:		73.25 %
+  top 2 accuracy:		98.90 %
+0.0015114921843633056
+0.0009142613271251321
+0.0006583238136954606
+Batch of classes 2 out of 5 batches
+Epoch 41 of 60 took 84.471s
+  training loss:		0.002521
+  validation loss:		0.798068
+  top 1 accuracy:		75.25 %
+  top 2 accuracy:		99.81 %
+0.0003926785138901323
+0.011111520230770111
+0.002373270457610488
+Batch of classes 2 out of 5 batches
+Epoch 42 of 60 took 84.344s
+  training loss:		0.003050
+  validation loss:		0.916837
+  top 1 accuracy:		63.25 %
+  top 2 accuracy:		99.12 %
+0.003928094170987606
+0.00018837903917301446
+0.005834739189594984
+Batch of classes 2 out of 5 batches
+Epoch 43 of 60 took 84.208s
+  training loss:		0.002947
+  validation loss:		0.895913
+  top 1 accuracy:		71.92 %
+  top 2 accuracy:		99.85 %
+0.00110726710408926
+0.014660917222499847
+0.00022522774816025048
+Batch of classes 2 out of 5 batches
+Epoch 44 of 60 took 85.142s
+  training loss:		0.002036
+  validation loss:		0.922323
+  top 1 accuracy:		59.56 %
+  top 2 accuracy:		99.79 %
+0.006147617008537054
+0.0004440220072865486
+0.0010809499071910977
+Batch of classes 2 out of 5 batches
+Epoch 45 of 60 took 85.364s
+  training loss:		0.002128
+  validation loss:		0.911624
+  top 1 accuracy:		75.00 %
+  top 2 accuracy:		99.85 %
+0.0018105481285601854
+0.007157281041145325
+0.00037395450635813177
+Batch of classes 2 out of 5 batches
+Epoch 46 of 60 took 85.489s
+  training loss:		0.002253
+  validation loss:		0.931723
+  top 1 accuracy:		68.40 %
+  top 2 accuracy:		99.83 %
+0.0005286452360451221
+0.00030289028654806316
+0.000802828639280051
+Batch of classes 2 out of 5 batches
+Epoch 47 of 60 took 85.646s
+  training loss:		0.001987
+  validation loss:		0.851379
+  top 1 accuracy:		68.71 %
+  top 2 accuracy:		99.67 %
+0.004661349579691887
+0.0010409342357888818
+0.00043342262506484985
+Batch of classes 2 out of 5 batches
+Epoch 48 of 60 took 85.286s
+  training loss:		0.002118
+  validation loss:		0.875640
+  top 1 accuracy:		69.79 %
+  top 2 accuracy:		99.71 %
+0.001610006089322269
+0.0010061011416837573
+0.0006327133742161095
+Batch of classes 2 out of 5 batches
+Epoch 49 of 60 took 85.522s
+  training loss:		0.002203
+  validation loss:		0.921036
+  top 1 accuracy:		75.81 %
+  top 2 accuracy:		99.83 %
+0.0036997892893850803
+0.0001222642749780789
+0.0004913225420750678
+Batch of classes 2 out of 5 batches
+Epoch 50 of 60 took 85.162s
+  training loss:		0.002096
+  validation loss:		0.803533
+  top 1 accuracy:		80.62 %
+  top 2 accuracy:		99.85 %
+0.0005056307418271899
+0.00039465093868784606
+0.0004062227963004261
+Batch of classes 2 out of 5 batches
+Epoch 51 of 60 took 84.766s
+  training loss:		0.001960
+  validation loss:		0.895188
+  top 1 accuracy:		69.29 %
+  top 2 accuracy:		99.83 %
+0.00026060917298309505
+0.0007880621706135571
+0.001952270045876503
+Batch of classes 2 out of 5 batches
+Epoch 52 of 60 took 84.112s
+  training loss:		0.001976
+  validation loss:		0.910747
+  top 1 accuracy:		56.77 %
+  top 2 accuracy:		98.90 %
+0.0016469769179821014
+0.0015235919272527099
+0.001078978879377246
+Batch of classes 2 out of 5 batches
+Epoch 53 of 60 took 82.769s
+  training loss:		0.002806
+  validation loss:		0.867486
+  top 1 accuracy:		71.58 %
+  top 2 accuracy:		99.67 %
+0.005296022165566683
+0.00019616908684838563
+0.0002980092540383339
+Batch of classes 2 out of 5 batches
+Epoch 54 of 60 took 86.286s
+  training loss:		0.001952
+  validation loss:		0.886954
+  top 1 accuracy:		71.00 %
+  top 2 accuracy:		99.69 %
+0.005084883887320757
+0.002951393835246563
+0.0003643522213678807
+Batch of classes 2 out of 5 batches
+Epoch 55 of 60 took 85.558s
+  training loss:		0.001603
+  validation loss:		0.949444
+  top 1 accuracy:		73.12 %
+  top 2 accuracy:		99.69 %
+0.0006417860276997089
+0.0001443867658963427
+0.01242872979491949
+Batch of classes 2 out of 5 batches
+Epoch 56 of 60 took 85.660s
+  training loss:		0.001754
+  validation loss:		0.930010
+  top 1 accuracy:		70.56 %
+  top 2 accuracy:		99.50 %
+0.00038307352224364877
+0.0008344528614543378
+0.0037224439438432455
+Batch of classes 2 out of 5 batches
+Epoch 57 of 60 took 85.509s
+  training loss:		0.002253
+  validation loss:		0.906254
+  top 1 accuracy:		70.69 %
+  top 2 accuracy:		99.50 %
+0.0005309983971528709
+0.00041442891233600676
+0.0005281988997012377
+Batch of classes 2 out of 5 batches
+Epoch 58 of 60 took 85.700s
+  training loss:		0.001937
+  validation loss:		0.869249
+  top 1 accuracy:		69.54 %
+  top 2 accuracy:		99.33 %
+0.0017054617637768388
+0.0005569867789745331
+0.0005489550530910492
+Batch of classes 2 out of 5 batches
+Epoch 59 of 60 took 84.982s
+  training loss:		0.002042
+  validation loss:		0.873875
+  top 1 accuracy:		71.79 %
+  top 2 accuracy:		99.62 %
+0.00022602481476496905
+0.011040476150810719
+0.00059901038184762
+Batch of classes 2 out of 5 batches
+Epoch 60 of 60 took 85.177s
+  training loss:		0.002532
+  validation loss:		0.903782
+  top 1 accuracy:		71.38 %
+  top 2 accuracy:		99.65 %
+Updating exemplar set...
+Computing mean-of_exemplars and theoretical mean...
+tensor(500)
+tensor(500)
+tensor(500)
+tensor(500)
+Computing accuracy on the original batch of classes...
+Final results on cyclegan classes:
+  top 1 accuracy iCaRL          :		73.58 %
+  top 1 accuracy Hybrid 1       :		74.81 %
+  top 1 accuracy NCM            :		73.67 %
+Binary accuracy:
+Final results on cyclegan classes:
+  top 1 accuracy iCaRL          :		73.98 %
+  top 1 accuracy Hybrid 1       :		74.96 %
+  top 1 accuracy NCM            :		74.02 %
+Final results on progan256 classes:
+  top 1 accuracy iCaRL          :		99.06 %
+  top 1 accuracy Hybrid 1       :		71.40 %
+  top 1 accuracy NCM            :		99.04 %
+Binary accuracy:
+Final results on progan256 classes:
+  top 1 accuracy iCaRL          :		99.60 %
+  top 1 accuracy Hybrid 1       :		96.52 %
+  top 1 accuracy NCM            :		99.58 %
+Final results on cumul of classes:
+  top 1 accuracy iCaRL          :		86.32 %
+  top 1 accuracy Hybrid 1       :		73.10 %
+  top 1 accuracy NCM            :		86.35 %
+Binary accuracy:
+Final results on binary cumul of classes:
+  top 1 accuracy iCaRL          :		86.79 %
+  top 1 accuracy Hybrid 1       :		85.74 %
+  top 1 accuracy NCM            :		86.80 %
+Classes in this batch: tensor([4, 5])
+Data Size: 7201
+
+
+Before first epoch
+  validation loss:		1.446610
+  top 1 accuracy:		0.00 %
+  top 2 accuracy:		0.00 %
+Batch of classes number 3 arrives ...
+1.3298825025558472
+0.15826945006847382
+0.17127519845962524
+Batch of classes 3 out of 5 batches
+Epoch 1 of 60 took 1392.026s
+  training loss:		0.217403
+  validation loss:		0.581430
+  top 1 accuracy:		39.54 %
+  top 2 accuracy:		53.71 %
+0.1521790325641632
+0.07089938968420029
+0.07745695114135742
+Batch of classes 3 out of 5 batches
+Epoch 2 of 60 took 1327.872s
+  training loss:		0.098173
+  validation loss:		0.468522
+  top 1 accuracy:		38.54 %
+  top 2 accuracy:		96.35 %
+0.08859296888113022
+0.07024802267551422
+0.0445326529443264
+Batch of classes 3 out of 5 batches
+Epoch 3 of 60 took 1310.238s
+  training loss:		0.082181
+  validation loss:		0.385946
+  top 1 accuracy:		55.98 %
+  top 2 accuracy:		94.42 %
+0.08242213726043701
+0.07881971448659897
+0.0676724836230278
+Batch of classes 3 out of 5 batches
+Epoch 4 of 60 took 1375.370s
+  training loss:		0.074504
+  validation loss:		0.401628
+  top 1 accuracy:		78.29 %
+  top 2 accuracy:		94.65 %
+0.07382623851299286
+0.06768190115690231
+0.04245324060320854
+Batch of classes 3 out of 5 batches
+Epoch 5 of 60 took 1297.471s
+  training loss:		0.069010
+  validation loss:		0.440698
+  top 1 accuracy:		68.52 %
+  top 2 accuracy:		96.96 %
+0.0920674130320549
+0.10188605636358261
+0.06508412212133408
+Batch of classes 3 out of 5 batches
+Epoch 6 of 60 took 1289.249s
+  training loss:		0.067204
+  validation loss:		0.425623
+  top 1 accuracy:		44.60 %
+  top 2 accuracy:		98.17 %
+0.050884999334812164
+0.10279788821935654
+0.044415827840566635
+Batch of classes 3 out of 5 batches
+Epoch 7 of 60 took 1302.016s
+  training loss:		0.064690
+  validation loss:		0.415038
+  top 1 accuracy:		69.00 %
+  top 2 accuracy:		91.02 %
+0.11430356651544571
+0.04207461699843407
+0.07942545413970947
+Batch of classes 3 out of 5 batches
+Epoch 8 of 60 took 1329.854s
+  training loss:		0.063527
+  validation loss:		0.311552
+  top 1 accuracy:		76.46 %
+  top 2 accuracy:		95.17 %
+0.040737565606832504
+0.058167632669210434
+0.05272553116083145
+Batch of classes 3 out of 5 batches
+Epoch 9 of 60 took 1364.186s
+  training loss:		0.059354
+  validation loss:		0.447745
+  top 1 accuracy:		75.52 %
+  top 2 accuracy:		97.65 %
+0.058126624673604965
+0.07245826721191406
+0.08116395771503448
+Batch of classes 3 out of 5 batches
+Epoch 10 of 60 took 1406.700s
+  training loss:		0.060872
+  validation loss:		0.356233
+  top 1 accuracy:		81.75 %
+  top 2 accuracy:		96.98 %
+0.04605487734079361
+0.0668192058801651
+0.06369390338659286
+Batch of classes 3 out of 5 batches
+Epoch 11 of 60 took 1350.652s
+  training loss:		0.058684
+  validation loss:		0.421484
+  top 1 accuracy:		75.67 %
+  top 2 accuracy:		93.79 %
+0.059133805334568024
+0.04553498700261116
+0.07337839156389236
+Batch of classes 3 out of 5 batches
+Epoch 12 of 60 took 1331.325s
+  training loss:		0.057876
+  validation loss:		0.393966
+  top 1 accuracy:		70.33 %
+  top 2 accuracy:		97.85 %
+0.07178924232721329
+0.04329037666320801
+0.06892116367816925
+Batch of classes 3 out of 5 batches
+Epoch 13 of 60 took 1392.861s
+  training loss:		0.058561
+  validation loss:		0.386352
+  top 1 accuracy:		88.98 %
+  top 2 accuracy:		97.42 %
+0.03555714711546898
+0.05412569269537926
+0.06275638937950134
+Batch of classes 3 out of 5 batches
+Epoch 14 of 60 took 1450.715s
+  training loss:		0.056724
+  validation loss:		0.421738
+  top 1 accuracy:		87.21 %
+  top 2 accuracy:		99.33 %
+0.05207005888223648
+0.03916247934103012
+0.055549781769514084
+Batch of classes 3 out of 5 batches
+Epoch 15 of 60 took 1688.201s
+  training loss:		0.057399
+  validation loss:		0.426012
+  top 1 accuracy:		55.83 %
+  top 2 accuracy:		68.83 %
+0.06199948862195015
+0.05339641124010086
+0.0709611251950264
+Batch of classes 3 out of 5 batches
+Epoch 16 of 60 took 1660.297s
+  training loss:		0.053033
+  validation loss:		0.433756
+  top 1 accuracy:		91.10 %
+  top 2 accuracy:		99.35 %
+0.07701563090085983
+0.02691073529422283
+0.04767023026943207
+Batch of classes 3 out of 5 batches
+Epoch 17 of 60 took 1574.401s
+  training loss:		0.055748
+  validation loss:		0.346079
+  top 1 accuracy:		86.87 %
+  top 2 accuracy:		96.83 %
+0.052635397762060165
+0.03913819417357445
+0.04493582621216774
+Batch of classes 3 out of 5 batches
+Epoch 18 of 60 took 1575.379s
+  training loss:		0.054125
+  validation loss:		0.403356
+  top 1 accuracy:		89.58 %
+  top 2 accuracy:		99.23 %
+0.03946904465556145
+0.044297169893980026
+0.04308616742491722
+Batch of classes 3 out of 5 batches
+Epoch 19 of 60 took 1452.545s
+  training loss:		0.055980
+  validation loss:		0.364704
+  top 1 accuracy:		77.73 %
+  top 2 accuracy:		94.10 %
+0.054844535887241364
+0.03554023057222366
+0.04660407453775406
+Batch of classes 3 out of 5 batches
+Epoch 20 of 60 took 1378.584s
+  training loss:		0.056250
+  validation loss:		0.366315
+  top 1 accuracy:		83.46 %
+  top 2 accuracy:		97.60 %
+0.05493894964456558
+0.04040825366973877
+0.046011634171009064
+Batch of classes 3 out of 5 batches
+Epoch 21 of 60 took 1353.707s
+  training loss:		0.047243
+  validation loss:		0.372328
+  top 1 accuracy:		95.52 %
+  top 2 accuracy:		99.58 %
+0.0475795678794384
+0.042910605669021606
+0.025878647342324257
+Batch of classes 3 out of 5 batches
+Epoch 22 of 60 took 1301.521s
+  training loss:		0.044330
+  validation loss:		0.381424
+  top 1 accuracy:		95.56 %
+  top 2 accuracy:		99.73 %
+0.04380286484956741
+0.055928587913513184
+0.03258344531059265
+Batch of classes 3 out of 5 batches
+Epoch 23 of 60 took 1320.226s
+  training loss:		0.044156
+  validation loss:		0.412139
+  top 1 accuracy:		94.52 %
+  top 2 accuracy:		99.79 %
+0.052645307034254074
+0.03666703402996063
+0.039865851402282715
+Batch of classes 3 out of 5 batches
+Epoch 24 of 60 took 1383.655s
+  training loss:		0.043976
+  validation loss:		0.403464
+  top 1 accuracy:		94.94 %
+  top 2 accuracy:		99.65 %
+0.053764231503009796
+0.09548157453536987
+0.051374949514865875
+Batch of classes 3 out of 5 batches
+Epoch 25 of 60 took 1348.283s
+  training loss:		0.044964
+  validation loss:		0.420178
+  top 1 accuracy:		94.27 %
+  top 2 accuracy:		99.37 %
+0.04654702544212341
+0.0408870168030262
+0.048373349010944366
+Batch of classes 3 out of 5 batches
+Epoch 26 of 60 took 1348.056s
+  training loss:		0.043170
+  validation loss:		0.373966
+  top 1 accuracy:		95.96 %
+  top 2 accuracy:		99.62 %
+0.05044294521212578
+0.046753447502851486
+0.03574063256382942
+Batch of classes 3 out of 5 batches
+Epoch 27 of 60 took 1345.324s
+  training loss:		0.044139
+  validation loss:		0.425390
+  top 1 accuracy:		84.65 %
+  top 2 accuracy:		97.25 %
+0.052601851522922516
+0.03164438530802727
+0.041278861463069916
+Batch of classes 3 out of 5 batches
+Epoch 28 of 60 took 1341.767s
+  training loss:		0.044319
+  validation loss:		0.366355
+  top 1 accuracy:		95.46 %
+  top 2 accuracy:		99.79 %
+0.0426713228225708
+0.03638393059372902
+0.043691977858543396
+Batch of classes 3 out of 5 batches
+Epoch 29 of 60 took 1326.278s
+  training loss:		0.043970
+  validation loss:		0.383334
+  top 1 accuracy:		97.54 %
+  top 2 accuracy:		99.73 %
+0.033260565251111984
+0.04057200625538826
+0.03880606219172478
+Batch of classes 3 out of 5 batches
+Epoch 30 of 60 took 1325.467s
+  training loss:		0.043607
+  validation loss:		0.409319
+  top 1 accuracy:		95.06 %
+  top 2 accuracy:		99.69 %
+0.04231172427535057
+0.03920433297753334
+0.03804275020956993
+Batch of classes 3 out of 5 batches
+Epoch 31 of 60 took 1324.773s
+  training loss:		0.043961
+  validation loss:		0.390815
+  top 1 accuracy:		91.94 %
+  top 2 accuracy:		99.77 %
+0.061238594353199005
+0.027936983853578568
+0.05221928283572197
+Batch of classes 3 out of 5 batches
+Epoch 32 of 60 took 1330.544s
+  training loss:		0.042114
+  validation loss:		0.401406
+  top 1 accuracy:		95.33 %
+  top 2 accuracy:		99.54 %
+0.051101792603731155
+0.03231148049235344
+0.021299829706549644
+Batch of classes 3 out of 5 batches
+Epoch 33 of 60 took 1331.329s
+  training loss:		0.043650
+  validation loss:		0.376571
+  top 1 accuracy:		88.21 %
+  top 2 accuracy:		99.27 %
+0.05472210794687271
+0.027365034446120262
+0.03956840559840202
+Batch of classes 3 out of 5 batches
+Epoch 34 of 60 took 1362.149s
+  training loss:		0.042800
+  validation loss:		0.378443
+  top 1 accuracy:		96.19 %
+  top 2 accuracy:		99.54 %
+0.03558436781167984
+0.03464479371905327
+0.04769430682063103
+Batch of classes 3 out of 5 batches
+Epoch 35 of 60 took 1338.144s
+  training loss:		0.042624
+  validation loss:		0.378019
+  top 1 accuracy:		91.73 %
+  top 2 accuracy:		98.85 %
+0.03275039419531822
+0.04311932623386383
+0.032841309905052185
+Batch of classes 3 out of 5 batches
+Epoch 36 of 60 took 1333.758s
+  training loss:		0.042809
+  validation loss:		0.387549
+  top 1 accuracy:		95.65 %
+  top 2 accuracy:		99.69 %
+0.03847276046872139
+0.04570837691426277
+0.041581351310014725
+Batch of classes 3 out of 5 batches
+Epoch 37 of 60 took 1339.668s
+  training loss:		0.043160
+  validation loss:		0.421496
+  top 1 accuracy:		88.83 %
+  top 2 accuracy:		97.27 %
+0.03763287141919136
+0.04667729139328003
+0.03975968435406685
+Batch of classes 3 out of 5 batches
+Epoch 38 of 60 took 1345.997s
+  training loss:		0.043264
+  validation loss:		0.400471
+  top 1 accuracy:		95.48 %
+  top 2 accuracy:		99.48 %
+0.032413311302661896
+0.0397016815841198
+0.04130921885371208
+Batch of classes 3 out of 5 batches
+Epoch 39 of 60 took 1312.025s
+  training loss:		0.042133
+  validation loss:		0.420211
+  top 1 accuracy:		95.60 %
+  top 2 accuracy:		99.73 %
+0.0421108603477478
+0.0413067527115345
+0.057421546429395676
+Batch of classes 3 out of 5 batches
+Epoch 40 of 60 took 1277.460s
+  training loss:		0.042026
+  validation loss:		0.392775
+  top 1 accuracy:		92.25 %
+  top 2 accuracy:		99.83 %
+0.03972853347659111
+0.04262680560350418
+0.029517142102122307
+Batch of classes 3 out of 5 batches
+Epoch 41 of 60 took 1292.655s
+  training loss:		0.040682
+  validation loss:		0.405271
+  top 1 accuracy:		96.73 %
+  top 2 accuracy:		99.83 %
+0.04378700256347656
+0.0366709940135479
+0.02481592260301113
+Batch of classes 3 out of 5 batches
+Epoch 42 of 60 took 1278.463s
+  training loss:		0.039775
+  validation loss:		0.432693
+  top 1 accuracy:		96.17 %
+  top 2 accuracy:		99.85 %
+0.04978542774915695
+0.042262982577085495
+0.03167276456952095
+Batch of classes 3 out of 5 batches
+Epoch 43 of 60 took 1288.518s
+  training loss:		0.040416
+  validation loss:		0.403844
+  top 1 accuracy:		95.81 %
+  top 2 accuracy:		99.69 %
+0.03632841631770134
+0.0345497764647007
+0.059783220291137695
+Batch of classes 3 out of 5 batches
+Epoch 44 of 60 took 1272.047s
+  training loss:		0.040335
+  validation loss:		0.416120
+  top 1 accuracy:		96.63 %
+  top 2 accuracy:		99.85 %
+0.040323060005903244
+0.04024585336446762
+0.0400259867310524
+Batch of classes 3 out of 5 batches
+Epoch 45 of 60 took 1327.998s
+  training loss:		0.040096
+  validation loss:		0.386138
+  top 1 accuracy:		96.02 %
+  top 2 accuracy:		99.81 %
+0.03844595327973366
+0.03146502748131752
+0.042382534593343735
+Batch of classes 3 out of 5 batches
+Epoch 46 of 60 took 1336.462s
+  training loss:		0.039625
+  validation loss:		0.387380
+  top 1 accuracy:		97.69 %
+  top 2 accuracy:		99.83 %
+0.028250932693481445
+0.06011787801980972
+0.037603843957185745
+Batch of classes 3 out of 5 batches
+Epoch 47 of 60 took 1383.243s
+  training loss:		0.039845
+  validation loss:		0.405710
+  top 1 accuracy:		97.52 %
+  top 2 accuracy:		99.81 %
+0.04077642783522606
+0.06404650211334229
+0.03307503089308739
+Batch of classes 3 out of 5 batches
+Epoch 48 of 60 took 1365.303s
+  training loss:		0.039357
+  validation loss:		0.406588
+  top 1 accuracy:		96.42 %
+  top 2 accuracy:		99.83 %
+0.023896118625998497
+0.04116760939359665
+0.02920360304415226
+Batch of classes 3 out of 5 batches
+Epoch 49 of 60 took 1376.230s
+  training loss:		0.039890
+  validation loss:		0.409083
+  top 1 accuracy:		97.00 %
+  top 2 accuracy:		99.69 %
+0.034422580152750015
+0.06847923994064331
+0.050226517021656036
+Batch of classes 3 out of 5 batches
+Epoch 50 of 60 took 1412.094s
+  training loss:		0.040356
+  validation loss:		0.400911
+  top 1 accuracy:		98.27 %
+  top 2 accuracy:		99.92 %
+0.04362181946635246
+0.04286604002118111
+0.032039742916822433
+slurmstepd: error: *** JOB 535706 ON biwirender13 CANCELLED AT 2022-03-02T12:11:20 ***

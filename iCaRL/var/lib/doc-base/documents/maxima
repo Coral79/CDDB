@@ -1,0 +1,9 @@
+Document: maxima
+Section: Science/Mathematics
+Title: Debian Maxima Manual
+Author: Maxima development team -- http://sourceforge.net/projects/maxima
+Abstract: This manual documents the maxima computer algebra system.
+
+Format: HTML
+Index: /usr/share/doc/maxima-doc/html/maxima_toc.html
+Files: /usr/share/doc/maxima-doc/html/*.html

@@ -1,0 +1,11 @@
+Document: glpk-language
+Section: Science/Mathematics
+Title: Modeling Language GNU MathProg
+Author: Andrew Makhorin
+Abstract: This manual describes the GNU MathProg modeling language,
+ which can be used to model linear programs and (mixed) integer
+ programs to be solved by GLPK.  GNU MathProg is a subset of the AMPL
+ modeling language.
+
+Format: PDF
+Files: /usr/share/doc/glpk-doc/gmpl.pdf

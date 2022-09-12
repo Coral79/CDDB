@@ -1,0 +1,11 @@
+Document: man-db
+Section: Viewers
+Title: Man-db manual
+Author: Graeme W. Wilford
+Abstract: The database cached manual pager suite.
+
+Format: PostScript
+Files: /usr/share/doc/man-db/man-db-manual.ps.gz
+
+Format: text
+Files: /usr/share/doc/man-db/man-db-manual.txt.gz

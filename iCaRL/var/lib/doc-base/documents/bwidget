@@ -1,0 +1,11 @@
+Document: bwidget
+Section: Programming
+Title: BWidget HTML Documentation
+Author: Authors of the BWidget package
+Abstract: This is a documentation for BWidget - the megawidget set for Tcl/Tk.
+ It contains documentation on individual BWidget widgets, supplied
+ with upstream distribution.
+
+Format: HTML
+Index: /usr/share/doc/bwidget/html/index.html
+Files: /usr/share/doc/bwidget/html/*.html

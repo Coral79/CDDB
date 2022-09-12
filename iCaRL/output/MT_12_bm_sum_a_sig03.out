@@ -1,0 +1,88 @@
+----------------- Options ---------------
+               add_binary: True                          	[default: False]
+               batch_size: 32                            	[default: 64]
+                   binary: False                         
+              binary_loss: sum_a_sig                     	[default: sum_b_sig]
+            binary_weight: 0.3                           	[default: 0.5]
+                blur_prob: 0                             
+                 blur_sig: 0.5                           
+          checkpoints_dir: /srv/beegfs02/scratch/generative_modeling/data/Deepfake/Adam-NSCL/checkpoints	[default: ./checkpoints]
+                class_bal: False                         
+           continue_train: False                         
+                 cropSize: 224                           
+                 data_aug: False                         
+                 dataroot: /srv/beegfs02/scratch/generative_modeling/data/Deepfake/test	[default: /srv/beegfs02/scratch/generative_modeling/data/Deepfake/Adam-NSCL]
+          earlystop_epoch: 5                             
+                    epoch: latest                        
+                 fine_tun: False                         
+                    gpuid: [1]                           
+                init_gain: 0.02                          
+                  init_lr: 0.0005                        
+                init_type: normal                        
+                  isTrain: True                          	[default: None]
+               jpg_method: cv2                           
+                 jpg_prob: 0                             
+                 jpg_qual: 75                            
+          label_smoothing: False                         
+                 loadSize: 256                           
+                    mixup: False                         
+              mixup_alpha: 0.1                           
+                     mode: binary                        
+               model_name: resnet18                      
+               model_type: resnet                        
+            model_weights: /home/chuqli/scratch/CNNDetection/checkpoints/no_aug/model_epoch_best.pth	[default: None]
+               multiclass: [0, 0, 1, 0, 0, 0, 0, 1, 1, 1, 0, 0]	[default: [1]]
+                     name: icarl_df_12_sum_a_sig03       	[default: experiment_name]
+                  no_flip: False                         
+              num_classes: 2                             
+               num_epochs: 30                            	[default: 12]
+              num_threads: 4                             
+                  outfile: temp_0.1.csv                  
+            pretrain_name:                               
+           resize_or_crop: scale_and_crop                
+                rz_interp: bilinear                      
+          save_epoch_freq: 20                            
+         save_latest_freq: 2000                          
+                 schedule: [10, 20, 30]                  	[default: [10]]
+           serial_batches: False                         
+          smoothing_alpha: 0.1                           
+                   suffix:                               
+                task_name: gaugan,biggan,cyclegan,imle,deepfake,crn,wild,glow,stargan_gf,stylegan,whichfaceisreal,san	[default: ]
+              train_split: train                         
+                val_split: val                           
+----------------- End -------------------
+{'All': 24}
+Task order: ['gaugan', 'biggan', 'cyclegan', 'imle', 'deepfake', 'crn', 'wild', 'glow', 'stargan_gf', 'stylegan', 'whichfaceisreal', 'san']
+=> Load model weights: /home/chuqli/scratch/CNNDetection/checkpoints/no_aug/model_epoch_best.pth
+=> Load Done
+Classes in this batch: tensor([0, 1])
+Data Size: 6000
+
+
+Before first epoch
+  validation loss:		1.021936
+  top 1 accuracy:		17.25 %
+  top 2 accuracy:		17.35 %
+Batch of classes number 1 arrives ...
+Traceback (most recent call last):
+  File "main_icarl_CNND.py", line 579, in <module>
+    main()
+  File "main_icarl_CNND.py", line 324, in main
+    for patterns, labels in train_loader:  # Line 151
+  File "/scratch_net/kringel/chuqli/conda_envs/icarl_pytorch/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 352, in __iter__
+    return self._get_iterator()
+  File "/scratch_net/kringel/chuqli/conda_envs/icarl_pytorch/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 294, in _get_iterator
+    return _MultiProcessingDataLoaderIter(self)
+  File "/scratch_net/kringel/chuqli/conda_envs/icarl_pytorch/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 801, in __init__
+    w.start()
+  File "/scratch_net/kringel/chuqli/conda_envs/icarl_pytorch/lib/python3.8/multiprocessing/process.py", line 121, in start
+    self._popen = self._Popen(self)
+  File "/scratch_net/kringel/chuqli/conda_envs/icarl_pytorch/lib/python3.8/multiprocessing/context.py", line 224, in _Popen
+    return _default_context.get_context().Process._Popen(process_obj)
+  File "/scratch_net/kringel/chuqli/conda_envs/icarl_pytorch/lib/python3.8/multiprocessing/context.py", line 277, in _Popen
+    return Popen(process_obj)
+  File "/scratch_net/kringel/chuqli/conda_envs/icarl_pytorch/lib/python3.8/multiprocessing/popen_fork.py", line 19, in __init__
+    self._launch(process_obj)
+  File "/scratch_net/kringel/chuqli/conda_envs/icarl_pytorch/lib/python3.8/multiprocessing/popen_fork.py", line 70, in _launch
+    self.pid = os.fork()
+OSError: [Errno 12] Cannot allocate memory

@@ -1,0 +1,690 @@
+---
+/internal/sc-status: 0
+armadillo:
+  CF:
+    /usr/share/doc-base/armadillo: ~
+  SD: {}
+asymptote:
+  CF:
+    /usr/share/doc-base/asymptote: ~
+  SD: {}
+atk:
+  CF:
+    /usr/share/doc-base/atk: ~
+  SD: {}
+auctex:
+  CF:
+    /usr/share/doc-base/auctex: ~
+  SD: {}
+autogen:
+  CF:
+    /usr/share/doc-base/autogen: ~
+  SD: {}
+automake-1.16:
+  CF:
+    /usr/share/doc-base/automake-1.16: ~
+  SD: {}
+bc:
+  CF:
+    /usr/share/doc-base/bc: ~
+  SD: {}
+bibtool:
+  CF:
+    /usr/share/doc-base/bibtool: ~
+  SD: {}
+bwidget:
+  CF:
+    /usr/share/doc-base/bwidget: ~
+  SD: {}
+bzip2:
+  CF:
+    /usr/share/doc-base/bzip2: ~
+  SD: {}
+chktex:
+  CF:
+    /usr/share/doc-base/chktex: ~
+  SD: {}
+conky-manual:
+  CF:
+    /usr/share/doc-base/conky-manual: ~
+  SD: {}
+cracklib-runtime:
+  CF:
+    /usr/share/doc-base/cracklib-runtime: ~
+  SD: {}
+cups:
+  CF:
+    /usr/share/doc-base/cups: ~
+  SD: {}
+cvs-doc:
+  CF:
+    /usr/share/doc-base/cvs-doc: ~
+  SD: {}
+cvs-doc-client:
+  CF:
+    /usr/share/doc-base/cvs-doc-client: ~
+  SD: {}
+cvs-doc-faq:
+  CF:
+    /usr/share/doc-base/cvs-doc-faq: ~
+  SD: {}
+cvs-doc-intro:
+  CF:
+    /usr/share/doc-base/cvs-doc-intro: ~
+  SD: {}
+cvs-doc-paper:
+  CF:
+    /usr/share/doc-base/cvs-doc-paper: ~
+  SD: {}
+cvs-doc-rcsfiles:
+  CF:
+    /usr/share/doc-base/cvs-doc-rcsfiles: ~
+  SD: {}
+dc:
+  CF:
+    /usr/share/doc-base/dc: ~
+  SD: {}
+ddd-guide-info:
+  CF:
+    /usr/share/doc-base/ddd-guide-info: ~
+  SD: {}
+ddd-themes-info:
+  CF:
+    /usr/share/doc-base/ddd-themes-info: ~
+  SD: {}
+dia-manual:
+  CF:
+    /usr/share/doc-base/dia-manual: ~
+  SD: {}
+doc-base:
+  CF:
+    /usr/share/doc-base/doc-base: ~
+  SD: {}
+docutils-documentation:
+  CF:
+    /usr/share/doc-base/docutils-documentation: ~
+  SD: {}
+dvd+rw-tools:
+  CF:
+    /usr/share/doc-base/dvd+rw-tools: ~
+  SD: {}
+enblend:
+  CF:
+    /usr/share/doc-base/enblend: ~
+  SD: {}
+enfuse:
+  CF:
+    /usr/share/doc-base/enfuse: ~
+  SD: {}
+enscript:
+  CF:
+    /usr/share/doc-base/enscript: ~
+  SD: {}
+enscript-faq:
+  CF:
+    /usr/share/doc-base/enscript-faq: ~
+  SD: {}
+evilwm:
+  CF:
+    /usr/share/doc-base/evilwm: ~
+  SD: {}
+exiftool:
+  CF:
+    /usr/share/doc-base/exiftool: ~
+  SD: {}
+expat:
+  CF:
+    /usr/share/doc-base/expat: ~
+  SD: {}
+feynmf-manual:
+  CF:
+    /usr/share/doc-base/feynmf-manual: ~
+  SD: {}
+fig2dev:
+  CF:
+    /usr/share/doc-base/fig2dev: ~
+  SD: {}
+fig2mpdf:
+  CF:
+    /usr/share/doc-base/fig2mpdf: ~
+  SD: {}
+findutils:
+  CF:
+    /usr/share/doc-base/findutils: ~
+  SD: {}
+flex:
+  CF:
+    /usr/share/doc-base/flex: ~
+  SD: {}
+fltk1.3-doc:
+  CF:
+    /usr/share/doc-base/fltk1.3-doc: ~
+  SD: {}
+fontconfig-devel:
+  CF:
+    /usr/share/doc-base/fontconfig-devel: ~
+  SD: {}
+fontconfig-user:
+  CF:
+    /usr/share/doc-base/fontconfig-user: ~
+  SD: {}
+fonts-sil-gentiumplus-features:
+  CF:
+    /usr/share/doc-base/fonts-sil-gentiumplus-features: ~
+  SD: {}
+fonts-sil-padauk-features:
+  CF:
+    /usr/share/doc-base/fonts-sil-padauk-features: ~
+  SD: {}
+ftgl:
+  CF:
+    /usr/share/doc-base/ftgl: ~
+  SD: {}
+gdisk:
+  CF:
+    /usr/share/doc-base/gdisk: ~
+  SD: {}
+gdk:
+  CF:
+    /usr/share/doc-base/gdk: ~
+  SD: {}
+gdk3:
+  CF:
+    /usr/share/doc-base/gdk3: ~
+  SD: {}
+geda-doc:
+  CF:
+    /usr/share/doc-base/geda-doc: ~
+  SD: {}
+geeqie:
+  CF:
+    /usr/share/doc-base/geeqie: ~
+  SD: {}
+geomview:
+  CF:
+    /usr/share/doc-base/geomview: ~
+  SD: {}
+giflib-tools:
+  CF:
+    /usr/share/doc-base/giflib-tools: ~
+  SD: {}
+gio:
+  CF:
+    /usr/share/doc-base/gio: ~
+  SD: {}
+glib:
+  CF:
+    /usr/share/doc-base/glib: ~
+  SD: {}
+glibmm2.4-reference:
+  CF:
+    /usr/share/doc-base/glibmm2.4-reference: ~
+  SD: {}
+glpk-language:
+  CF:
+    /usr/share/doc-base/glpk-language: ~
+  SD: {}
+glpk-refman:
+  CF:
+    /usr/share/doc-base/glpk-refman: ~
+  SD: {}
+gmt-doc:
+  CF:
+    /usr/share/doc-base/gmt-doc: ~
+  SD: {}
+gobject:
+  CF:
+    /usr/share/doc-base/gobject: ~
+  SD: {}
+grace:
+  CF:
+    /usr/share/doc-base/grace: ~
+  SD: {}
+grass-manuals:
+  CF:
+    /usr/share/doc-base/grass-manuals: ~
+  SD: {}
+gtk:
+  CF:
+    /usr/share/doc-base/gtk: ~
+  SD: {}
+gtk2-faq:
+  CF:
+    /usr/share/doc-base/gtk2-faq: ~
+  SD: {}
+gtk2-tutorial:
+  CF:
+    /usr/share/doc-base/gtk2-tutorial: ~
+  SD: {}
+gtk3:
+  CF:
+    /usr/share/doc-base/gtk3: ~
+  SD: {}
+gtkmm-documentation-tutorial:
+  CF:
+    /usr/share/doc-base/gtkmm-documentation-tutorial: ~
+  SD: {}
+gtkmm2.4-reference:
+  CF:
+    /usr/share/doc-base/gtkmm2.4-reference: ~
+  SD: {}
+gtkmm3.0-reference:
+  CF:
+    /usr/share/doc-base/gtkmm3.0-reference: ~
+  SD: {}
+i3-wm:
+  CF:
+    /usr/share/doc-base/i3-wm: ~
+  SD: {}
+icewm-manual:
+  CF:
+    /usr/share/doc-base/icewm-manual: ~
+  SD: {}
+install-docs-man:
+  CF:
+    /usr/share/doc-base/install-docs-man: ~
+  SD: {}
+ipe:
+  CF:
+    /usr/share/doc-base/ipe: ~
+  SD: {}
+iperf:
+  CF:
+    /usr/share/doc-base/iperf: ~
+  SD: {}
+irssi-faq:
+  CF:
+    /usr/share/doc-base/irssi-faq: ~
+  SD: {}
+irssi-manual:
+  CF:
+    /usr/share/doc-base/irssi-manual: ~
+  SD: {}
+irssi-startup-howto:
+  CF:
+    /usr/share/doc-base/irssi-startup-howto: ~
+  SD: {}
+jed-common:
+  CF:
+    /usr/share/doc-base/jed-common: ~
+  SD: {}
+jlex-manual:
+  CF:
+    /usr/share/doc-base/jlex-manual: ~
+  SD: {}
+kbd-font-formats:
+  CF:
+    /usr/share/doc-base/kbd-font-formats: ~
+  SD: {}
+kdbg:
+  CF:
+    /usr/share/doc-base/kdbg: ~
+  SD: {}
+kdiff3:
+  CF:
+    /usr/share/doc-base/kdiff3: ~
+  SD: {}
+latex2html:
+  CF:
+    /usr/share/doc-base/latex2html: ~
+  SD: {}
+latexdiff:
+  CF:
+    /usr/share/doc-base/latexdiff: ~
+  SD: {}
+lcms-api:
+  CF:
+    /usr/share/doc-base/lcms-api: ~
+  SD: {}
+lcms-plugin:
+  CF:
+    /usr/share/doc-base/lcms-plugin: ~
+  SD: {}
+lcms-tutorial:
+  CF:
+    /usr/share/doc-base/lcms-tutorial: ~
+  SD: {}
+libconfig9:
+  CF:
+    /usr/share/doc-base/libconfig9: ~
+  SD: {}
+libcrack2:
+  CF:
+    /usr/share/doc-base/libcrack2: ~
+  SD: {}
+libdata-stag-perl-homepage:
+  CF:
+    /usr/share/doc-base/libdata-stag-perl-homepage: ~
+  SD: {}
+libenet-doc:
+  CF:
+    /usr/share/doc-base/libenet-doc: ~
+  SD: {}
+libexif-api:
+  CF:
+    /usr/share/doc-base/libexif-api: ~
+  SD: {}
+libffi:
+  CF:
+    /usr/share/doc-base/libffi: ~
+  SD: {}
+libftdi-dev:
+  CF:
+    /usr/share/doc-base/libftdi-dev: ~
+  SD: {}
+libfyba-dev:
+  CF:
+    /usr/share/doc-base/libfyba-dev: ~
+  SD: {}
+libglade2-dev:
+  CF:
+    /usr/share/doc-base/libglade2-dev: ~
+  SD: {}
+libgtkglext1-doc:
+  CF:
+    /usr/share/doc-base/libgtkglext1-doc: ~
+  SD: {}
+libjemalloc-dev:
+  CF:
+    /usr/share/doc-base/libjemalloc-dev: ~
+  SD: {}
+libjhlabs-filters-java:
+  CF:
+    /usr/share/doc-base/libjhlabs-filters-java: ~
+  SD: {}
+liblablgl-ocaml-dev-ocamldoc-api-reference:
+  CF:
+    /usr/share/doc-base/liblablgl-ocaml-dev.doc-base.apiref: ~
+  SD: {}
+liblqr:
+  CF:
+    /usr/share/doc-base/liblqr: ~
+  SD: {}
+libmikmod:
+  CF:
+    /usr/share/doc-base/libmikmod: ~
+  SD: {}
+libpng16:
+  CF:
+    /usr/share/doc-base/libpng16: ~
+  SD: {}
+libsdl-ocaml-dev:
+  CF:
+    /usr/share/doc-base/libsdl-ocaml-dev: ~
+  SD: {}
+libsdl1.2-dev:
+  CF:
+    /usr/share/doc-base/libsdl1.2-dev: ~
+  SD: {}
+libsnmp-session-perl:
+  CF:
+    /usr/share/doc-base/libsnmp-session-perl: ~
+  SD: {}
+libspreadsheet-writeexcel-perl:
+  CF:
+    /usr/share/doc-base/libspreadsheet-writeexcel-perl: ~
+  SD: {}
+libtasn1:
+  CF:
+    /usr/share/doc-base/libtasn1: ~
+  SD: {}
+libusb-1.0-doc:
+  CF:
+    /usr/share/doc-base/libusb-1.0-doc: ~
+  SD: {}
+libusb-dev:
+  CF:
+    /usr/share/doc-base/libusb-dev: ~
+  SD: {}
+libvorbis:
+  CF:
+    /usr/share/doc-base/libvorbis: ~
+  SD: {}
+libxml-parser-perl:
+  CF:
+    /usr/share/doc-base/libxml-parser-perl: ~
+  SD: {}
+libxslt1-dev:
+  CF:
+    /usr/share/doc-base/libxslt1-dev: ~
+  SD: {}
+linklint:
+  CF:
+    /usr/share/doc-base/linklint: ~
+  SD: {}
+lintian:
+  CF:
+    /usr/share/doc-base/lintian: ~
+  SD: {}
+man-db:
+  CF:
+    /usr/share/doc-base/man-db: ~
+  SD: {}
+maxima:
+  CF:
+    /usr/share/doc-base/maxima: ~
+  SD: {}
+mc-faq:
+  CF:
+    /usr/share/doc-base/mc-faq: ~
+  SD: {}
+mdadm-faq:
+  CF:
+    /usr/share/doc-base/mdadm-faq: ~
+  SD: {}
+mdadm-readme-recipes:
+  CF:
+    /usr/share/doc-base/mdadm-readme-recipes: ~
+  SD: {}
+menu:
+  CF:
+    /usr/share/doc-base/menu: ~
+  SD: {}
+mhonarc:
+  CF:
+    /usr/share/doc-base/mhonarc: ~
+  SD: {}
+mp4h:
+  CF:
+    /usr/share/doc-base/mp4h: ~
+  SD: {}
+mutt:
+  CF:
+    /usr/share/doc-base/mutt: ~
+  SD: {}
+nano:
+  CF:
+    /usr/share/doc-base/nano: ~
+  SD: {}
+nano-faq:
+  CF:
+    /usr/share/doc-base/nano-faq: ~
+  SD: {}
+nco:
+  CF:
+    /usr/share/doc-base/nco: ~
+  SD: {}
+nedit:
+  CF:
+    /usr/share/doc-base/nedit: ~
+  SD: {}
+nettle-dev:
+  CF:
+    /usr/share/doc-base/nettle-dev: ~
+  SD: {}
+nodejs-api:
+  CF:
+    /usr/share/doc-base/nodejs-api: ~
+  SD: {}
+ocaml-findlib-guide:
+  CF:
+    /usr/share/doc-base/ocaml-findlib-guide: ~
+  SD: {}
+ocaml-findlib-reference:
+  CF:
+    /usr/share/doc-base/ocaml-findlib-reference: ~
+  SD: {}
+ocl-icd-libopencl1:
+  CF:
+    /usr/share/doc-base/ocl-icd-libopencl1: ~
+  SD: {}
+octave-lib:
+  CF:
+    /usr/share/doc-base/octave-lib: ~
+  SD: {}
+octave-manual:
+  CF:
+    /usr/share/doc-base/octave-manual: ~
+  SD: {}
+octave-refcard:
+  CF:
+    /usr/share/doc-base/octave-refcard: ~
+  SD: {}
+omake-doc:
+  CF:
+    /usr/share/doc-base/omake-doc: ~
+  SD: {}
+openbox:
+  CF:
+    /usr/share/doc-base/openbox: ~
+  SD: {}
+openjade:
+  CF:
+    /usr/share/doc-base/openjade: ~
+  SD: {}
+otags-changes:
+  CF:
+    /usr/share/doc-base/otags-changes: ~
+  SD: {}
+p7zip-full:
+  CF:
+    /usr/share/doc-base/p7zip-full: ~
+  SD: {}
+pango:
+  CF:
+    /usr/share/doc-base/pango: ~
+  SD: {}
+pbuilder:
+  CF:
+    /usr/share/doc-base/pbuilder: ~
+  SD: {}
+pcb:
+  CF:
+    /usr/share/doc-base/pcb: ~
+  SD: {}
+po-debconf:
+  CF:
+    /usr/share/doc-base/po-debconf: ~
+  SD: {}
+preview-latex:
+  CF:
+    /usr/share/doc-base/preview-latex: ~
+  SD: {}
+preview-latex-style:
+  CF:
+    /usr/share/doc-base/preview-latex-style: ~
+  SD: {}
+pstoedit-man:
+  CF:
+    /usr/share/doc-base/pstoedit-man: ~
+  SD: {}
+pycaml:
+  CF:
+    /usr/share/doc-base/pycaml: ~
+  SD: {}
+python-concurrent.futures:
+  CF:
+    /usr/share/doc-base/python-concurrent.futures: ~
+  SD: {}
+python-configparser-reference-manual:
+  CF:
+    /usr/share/doc-base/python-configparser-reference-manual: ~
+  SD: {}
+qpdf-manual:
+  CF:
+    /usr/share/doc-base/qpdf-manual: ~
+  SD: {}
+quilt:
+  CF:
+    /usr/share/doc-base/quilt: ~
+  SD: {}
+realmd:
+  CF:
+    /usr/share/doc-base/realmd: ~
+  SD: {}
+rrdtool:
+  CF:
+    /usr/share/doc-base/rrdtool: ~
+  SD: {}
+rubber-manual:
+  CF:
+    /usr/share/doc-base/rubber-manual: ~
+  SD: {}
+ruby-sdl-doc:
+  CF:
+    /usr/share/doc-base/ruby-sdl-doc: ~
+  SD: {}
+ruby-sdl-doc-ja:
+  CF:
+    /usr/share/doc-base/ruby-sdl-doc-ja: ~
+  SD: {}
+shared-mime-info:
+  CF:
+    /usr/share/doc-base/shared-mime-info: ~
+  SD: {}
+slsh:
+  CF:
+    /usr/share/doc-base/slsh: ~
+  SD: {}
+socat:
+  CF:
+    /usr/share/doc-base/socat: ~
+  SD: {}
+swh-plugins:
+  CF:
+    /usr/share/doc-base/swh-plugins: ~
+  SD: {}
+sysstat-faq:
+  CF:
+    /usr/share/doc-base/sysstat-faq: ~
+  SD: {}
+tig:
+  CF:
+    /usr/share/doc-base/tig: ~
+  SD: {}
+tolua++-manual:
+  CF:
+    /usr/share/doc-base/tolua++-manual: ~
+  SD: {}
+unison-manual:
+  CF:
+    /usr/share/doc-base/unison-manual: ~
+  SD: {}
+users-and-groups:
+  CF:
+    /usr/share/doc-base/users-and-groups: ~
+  SD: {}
+valgrind:
+  CF:
+    /usr/share/doc-base/valgrind: ~
+  SD: {}
+w3m:
+  CF:
+    /usr/share/doc-base/w3m: ~
+  SD: {}
+wxmaxima:
+  CF:
+    /usr/share/doc-base/wxmaxima: ~
+  SD: {}
+xinetd-faq:
+  CF:
+    /usr/share/doc-base/xinetd-faq: ~
+  SD: {}
+xterm-ctlseqs:
+  CF:
+    /usr/share/doc-base/xterm-ctlseqs: ~
+  SD: {}
+xterm-faq:
+  CF:
+    /usr/share/doc-base/xterm-faq: ~
+  SD: {}

@@ -1,0 +1,8 @@
+Document: xinetd-faq
+Section: Help/FAQ
+Title: xinetd FAQ
+Abstract: This manual replies to some common questions about xinetd
+
+Format: HTML
+Index: /usr/share/doc/xinetd/xinetd.org-FAQ.html
+Files: /usr/share/doc/xinetd/xinetd.org-FAQ.html

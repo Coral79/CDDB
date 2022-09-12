@@ -1,0 +1,1 @@
+from .icarl import icarl_accuracy_measure, icarl_cifar100_augment_data

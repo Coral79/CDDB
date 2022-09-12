@@ -1,0 +1,15 @@
+Document: asymptote
+Section: Science/Mathematics
+Title: Asymptote User Manual
+Abstract: This document describes the Asymptote system and programming language.
+
+Format: HTML
+Index: /usr/share/doc/asymptote-doc/html/index.html
+Files: /usr/share/doc/asymptote-doc/html/*.html
+
+Format: PDF
+Files: /usr/share/doc/asymptote-doc/asymptote.pdf
+       /usr/share/doc/asymptote-doc/asyRefCard.pdf
+       /usr/share/doc/asymptote-doc/asy-latex.pdf
+       /usr/share/doc/asymptote-doc/CAD.pdf
+       /usr/share/doc/asymptote-doc/TeXShopAndAsymptote.pdf
