@@ -1,0 +1,8 @@
+data_set: GANFAKE
+initial_increment: 2
+#initial_increment: 10
+increment: 2
+
+log_category: nips
+
+

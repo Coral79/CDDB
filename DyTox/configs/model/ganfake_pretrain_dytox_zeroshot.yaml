@@ -1,0 +1,52 @@
+# 用来验证 zero-shot 精度
+# Model definition
+model: convit_pretrain
+input_size: 224
+dytox_ptconvit: true
+
+# Training setting
+no_amp: false
+eval_every: 10
+
+# Base hyperparameter
+epochs: 50
+base_epochs: 50
+lr: 0.0001
+warmup_lr: 0.0001
+weight_decay: 0.000001
+batch_size: 128
+incremental_batch_size: 128
+incremental_lr: 0.0005
+rehearsal: icarl_all
+
+# Knowledge Distillation
+auto_kd: true
+
+# Finetuning
+finetuning: balanced
+finetuning_epochs: 0
+
+# Dytox model
+freeze_task: [old_task_tokens, old_heads]
+freeze_ft: [sab]
+
+# Divergence head to get diversity
+head_div: 0.1
+head_div_mode: tr
+
+# Independent Classifiers
+ind_clf: 1-1
+bce_loss: true
+
+
+# Advanced Augmentations, here disabled
+
+## Erasing
+reprob: 0.0
+remode: pixel
+recount: 1
+resplit: false
+
+## MixUp & CutMix
+mixup: 0.0
+cutmix: 0.0
