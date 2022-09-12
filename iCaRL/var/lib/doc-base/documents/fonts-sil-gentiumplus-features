@@ -1,9 +1,0 @@
-Document: fonts-sil-gentiumplus-features
-Section: Office
-Title: Font Features for Gentium Plus
-Author: SIL International www.sil.org
-Abstract: How to use optional font features in the Gentium Plus font.
- Additional documentation is located in various text files. ODT source is included.
-
-Format: PDF
-Files: /usr/share/doc/fonts-sil-gentiumplus/documentation/GentiumPlus-features.pdf.gz

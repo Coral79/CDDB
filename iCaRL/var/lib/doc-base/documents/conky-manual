@@ -1,9 +1,0 @@
-Document: conky-manual
-Section: System/Monitoring
-Title: Conky Manual
-Abstract: This manual describes the various configuration
- settings and variables available to Conky users.
-
-Format: HTML
-Index: /usr/share/doc/conky-all/html/docs.html
-Files: /usr/share/doc/conky-all/html/*.html

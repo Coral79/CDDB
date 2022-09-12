@@ -1,9 +1,0 @@
-Document: libconfig9
-Section: Programming/C
-Title: libconfig manual
-Author: Mark A Lindner
-Abstract: This manual describes what libconfig is
- and how it can be used to parse configuration files
-
-Format: PDF
-Files: /usr/share/doc/libconfig-doc/libconfig.pdf.gz
