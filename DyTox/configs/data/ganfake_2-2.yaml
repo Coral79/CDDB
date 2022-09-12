@@ -1,0 +1,14 @@
+data_set: GANFAKE
+initial_increment: 2
+increment: 2
+memory_size: 500
+
+log_category: 2-2
+
+
+epochs: 60
+base_epochs: 60
+eval_every: 1
+lr: 0.0001
+weight_decay: 0.0001
+warmup_lr: 0.0001
