@@ -1,6 +1,6 @@
 # A Continual Deepfake Detection Benchmark: Dataset, Methods, and Essentials
 Pytorch implementation for WACV 2023 paper "A Continual Deepfake Detection Benchmark: Dataset, Methods, and Essentials".
-We propose a new a continual deepfake detection benchmark (CDDB) over a new collection of deepfakes from
+We propose a continual deepfake detection benchmark (CDDB) over a new collection of deepfakes from
 both known and unknown generative models.
 
 **A Continual Deepfake Detection Benchmark: Dataset, Methods, and Essentials** <br>
