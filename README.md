@@ -55,19 +55,19 @@ As described in the paper, we implement diffent kinds of binary loss term
 
 SumLogit
 ```
-python lucir_main.py --name lucir_easy_m1500_sumasig0.1 --checkpoints_dir ./datasets/checkpoints  --dataroot ./datasets/CDDB/ --task_name gaugan,biggan,cyclegan,imle,deepfake,crn,wild --multiclass  0 0 1 0 0 0 0 --batch_size 32 --num_epochs 40 --binary_loss sum_a_sig --binary_weight 0.1
+--binary_loss sum_a_sig
 ```
 SumFeat
 ```
-python lucir_main.py --name lucir_easy_m1500_sumbsig0.1 --checkpoints_dir ./datasets/checkpoints  --dataroot ./datasets/CDDB/ --task_name gaugan,biggan,cyclegan,imle,deepfake,crn,wild --multiclass  0 0 1 0 0 0 0 --batch_size 32 --num_epochs 40 --binary_loss sum_b_sig --binary_weight 0.1
+--binary_loss sum_b_sig
 ```
 SumLog
 ```
-python lucir_main.py --name lucir_easy_m1500_sumblog0.01 --checkpoints_dir ./datasets/checkpoints  --dataroot ./datasets/CDDB/ --task_name gaugan,biggan,cyclegan,imle,deepfake,crn,wild --multiclass  0 0 1 0 0 0 0 --batch_size 32 --num_epochs 40 --binary_loss sum_b_log --binary_weight 0.01
+--binary_loss sum_b_log
 ```
-SumLog
+Max
 ```
-python lucir_main.py --name lucir_easy_m1500_max0.1 --checkpoints_dir ./datasets/checkpoints  --dataroot ./datasets/CDDB/ --task_name gaugan,biggan,cyclegan,imle,deepfake,crn,wild --multiclass  0 0 1 0 0 0 0 --batch_size 32 --num_epochs 40 --binary_loss max --binary_weight 0.1
+--binary_loss max 
 ```
 
 ## Citation
