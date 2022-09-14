@@ -47,7 +47,7 @@ python lucir_main.py --name icarl_df --checkpoints_dir ./checkpoints  --dataroot
 ### iCaRL:
 Using iCaRL, train the model with binary/multi labels, with different sequences:
 ```
-python iCaRL/train.py ...
+python main_icarl_CNND.py --name MT_7_bm_sum_b_sig01_15 --checkpoints_dir ./checkpoints --model_weights /home/wangyabin/workspace/datasets/DeepFake_Data/checkpoints/no_aug/model_epoch_best.pth --dataroot /home/wangyabin/workspace/datasets/DeepFake_Data/release --task_name gaugan,biggan,cyclegan,imle,deepfake,crn,wild --multiclass  0 0 1 0 0 0 0  --batch_size 32 --num_epochs 30 --schedule 10 20 30 --add_binary --binary_weight 0.1 --binary_loss sum_b_sig
 ```
 
 ## Citation
