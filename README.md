@@ -28,7 +28,8 @@ Project
 ### DyTox
 Using DyTox, train the model with binary/multi labels, with different sequences:
 ```
-bash DyTox/train.sh 0,1 \
+cd DyTox
+bash train.sh 0,1 \
     --options configs/data/ganfake_easy.yaml configs/data/ganfake_easy_order.yaml configs/model/ganfake_pretrain_dytox.yaml \
     --name dytox_easy_m1500_sumblog0.1 \
     --data-path ./datasets/CDDB/  \
@@ -41,12 +42,14 @@ bash DyTox/train.sh 0,1 \
 ### LUCIR:
 Using LUCIR, train the model with binary/multi labels, with different sequences:
 ```
+cd LUCIR
 python lucir_main.py --name lucir_easy_m1500_sumasig0.1 --checkpoints_dir ./datasets/checkpoints  --dataroot ./datasets/CDDB/ --task_name gaugan,biggan,cyclegan,imle,deepfake,crn,wild --multiclass  0 0 1 0 0 0 0 --batch_size 32 --num_epochs 40 --binary_loss sum_a_sig --binary_weight 0.1
 ```
 
 ### iCaRL:
 Using iCaRL, train the model with binary/multi labels, with different sequences:
 ```
+cd iCaRL
 python main_icarl_CNND.py --name icarl_easy_m1500_sumasig0.1 --checkpoints_dir ./datasets/checkpoints --model_weights ./datasets/checkpoints/no_aug/model_epoch_best.pth --dataroot ./datasets/CDDB/ --task_name gaugan,biggan,cyclegan,imle,deepfake,crn,wild --multiclass  0 0 1 0 0 0 0  --batch_size 32 --num_epochs 30 --schedule 10 20 30 --add_binary --binary_weight 0.1 --binary_loss sum_a_sig
 ```
 ### Loss Term:
