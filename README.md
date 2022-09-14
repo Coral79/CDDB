@@ -27,13 +27,21 @@ Project
 ### DyTox
 Using DyTox, train the model with binary/multi labels, with different sequences:
 ```
-python DyTox/train.py ...
+cd DyTox
+bash train.sh 0,1 \
+    --options configs/data/ganfake_easy.yaml configs/data/ganfake_easy_order.yaml configs/model/ganfake_pretrain_dytox.yaml \
+    --name dytox_ganfake_easy_m1500_sumblog0.01 \
+    --data-path ~/workspace/datasets/DeepFake_Data/CL_data/  \
+    --output-basedir ./checkpoints  \
+    --memory-size 1500 \
+    --binary_loss sum_b_log \
+    --binary_weight 0.01
 ```
 
 ### LUCIR:
 Using LUCIR, train the model with binary/multi labels, with different sequences:
 ```
-python LUCIR/train.py ...
+python lucir_main.py --name icarl_df --checkpoints_dir ./checkpoints  --dataroot ~/workspace/datasets/DeepFake_Data/release/ --task_name gaugan,biggan,cyclegan,imle,deepfake,crn,wild --multiclass  0 0 1 0 0 0 0 --batch_size 32 --num_epochs 40 --binary_loss sum_a_sig --binary_weight 0.1
 ```
 
 ### iCaRL:
