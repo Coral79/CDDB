@@ -19,6 +19,7 @@ Organize the dataset folder as:
 Project
 ├── datasets
 |   ├── CDDB
+|   ├── checkpoints
 ```
 
 
