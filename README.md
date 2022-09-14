@@ -49,7 +49,7 @@ Using iCaRL, train the model with binary/multi labels, with different sequences:
 ```
 python main_icarl_CNND.py --name icarl_easy_m1500_sumasig0.1 --checkpoints_dir ./datasets/checkpoints --model_weights ./datasets/checkpoints/no_aug/model_epoch_best.pth --dataroot ./datasets/CDDB/ --task_name gaugan,biggan,cyclegan,imle,deepfake,crn,wild --multiclass  0 0 1 0 0 0 0  --batch_size 32 --num_epochs 30 --schedule 10 20 30 --add_binary --binary_weight 0.1 --binary_loss sum_a_sig
 ```
-### loss term:
+### Loss Term:
 
 As described in the paper, we implement diffent kinds of binary loss term
 
