@@ -28,27 +28,46 @@ Project
 ### DyTox
 Using DyTox, train the model with binary/multi labels, with different sequences:
 ```
-cd DyTox
-bash train.sh 0,1 \
+bash DyTox/train.sh 0,1 \
     --options configs/data/ganfake_easy.yaml configs/data/ganfake_easy_order.yaml configs/model/ganfake_pretrain_dytox.yaml \
-    --name dytox_ganfake_easy_m1500_sumblog0.01 \
+    --name dytox_easy_m1500_sumblog0.1 \
     --data-path ./datasets/CDDB/  \
-    --output-basedir ./checkpoints  \
+    --output-basedir ./datasets/checkpoints  \
     --memory-size 1500 \
     --binary_loss sum_b_log \
-    --binary_weight 0.01
+    --binary_weight 0.1
 ```
 
 ### LUCIR:
 Using LUCIR, train the model with binary/multi labels, with different sequences:
 ```
-python lucir_main.py --name icarl_df --checkpoints_dir ./checkpoints  --dataroot ./datasets/CDDB/ --task_name gaugan,biggan,cyclegan,imle,deepfake,crn,wild --multiclass  0 0 1 0 0 0 0 --batch_size 32 --num_epochs 40 --binary_loss sum_a_sig --binary_weight 0.1
+python lucir_main.py --name lucir_easy_m1500_sumasig0.1 --checkpoints_dir ./datasets/checkpoints  --dataroot ./datasets/CDDB/ --task_name gaugan,biggan,cyclegan,imle,deepfake,crn,wild --multiclass  0 0 1 0 0 0 0 --batch_size 32 --num_epochs 40 --binary_loss sum_a_sig --binary_weight 0.1
 ```
 
 ### iCaRL:
 Using iCaRL, train the model with binary/multi labels, with different sequences:
 ```
-python main_icarl_CNND.py --name MT_7_bm_sum_b_sig01_15 --checkpoints_dir ./checkpoints --model_weights /home/wangyabin/workspace/datasets/DeepFake_Data/checkpoints/no_aug/model_epoch_best.pth --dataroot /home/wangyabin/workspace/datasets/DeepFake_Data/release --task_name gaugan,biggan,cyclegan,imle,deepfake,crn,wild --multiclass  0 0 1 0 0 0 0  --batch_size 32 --num_epochs 30 --schedule 10 20 30 --add_binary --binary_weight 0.1 --binary_loss sum_b_sig
+python main_icarl_CNND.py --name icarl_easy_m1500_sumasig0.1 --checkpoints_dir ./datasets/checkpoints --model_weights ./datasets/checkpoints/no_aug/model_epoch_best.pth --dataroot ./datasets/CDDB/ --task_name gaugan,biggan,cyclegan,imle,deepfake,crn,wild --multiclass  0 0 1 0 0 0 0  --batch_size 32 --num_epochs 30 --schedule 10 20 30 --add_binary --binary_weight 0.1 --binary_loss sum_a_sig
+```
+### loss term:
+
+As described in the paper, we implement diffent kinds of binary loss term
+
+SumLogit
+```
+python lucir_main.py --name lucir_easy_m1500_sumasig0.1 --checkpoints_dir ./datasets/checkpoints  --dataroot ./datasets/CDDB/ --task_name gaugan,biggan,cyclegan,imle,deepfake,crn,wild --multiclass  0 0 1 0 0 0 0 --batch_size 32 --num_epochs 40 --binary_loss sum_a_sig --binary_weight 0.1
+```
+SumFeat
+```
+python lucir_main.py --name lucir_easy_m1500_sumbsig0.1 --checkpoints_dir ./datasets/checkpoints  --dataroot ./datasets/CDDB/ --task_name gaugan,biggan,cyclegan,imle,deepfake,crn,wild --multiclass  0 0 1 0 0 0 0 --batch_size 32 --num_epochs 40 --binary_loss sum_b_sig --binary_weight 0.1
+```
+SumLog
+```
+python lucir_main.py --name lucir_easy_m1500_sumblog0.01 --checkpoints_dir ./datasets/checkpoints  --dataroot ./datasets/CDDB/ --task_name gaugan,biggan,cyclegan,imle,deepfake,crn,wild --multiclass  0 0 1 0 0 0 0 --batch_size 32 --num_epochs 40 --binary_loss sum_b_log --binary_weight 0.01
+```
+SumLog
+```
+python lucir_main.py --name lucir_easy_m1500_max0.1 --checkpoints_dir ./datasets/checkpoints  --dataroot ./datasets/CDDB/ --task_name gaugan,biggan,cyclegan,imle,deepfake,crn,wild --multiclass  0 0 1 0 0 0 0 --batch_size 32 --num_epochs 40 --binary_loss max --binary_weight 0.1
 ```
 
 ## Citation
