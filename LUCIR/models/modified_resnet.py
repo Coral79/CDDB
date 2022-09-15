@@ -206,16 +206,15 @@ def resnet50(num_classes=1000, pretrained=True, **kwargs):
     if pretrained:
         model_dict = model.state_dict()
         #pretrained_dict = torch.load("/home/yabin/workspace/data/DeepFake_Data/checkpoints/no_aug/model_epoch_best.pth")['model']
-        pretrained_dict = torch.load("/home/ubuntu/efs/DeepFake_Data/checkpoints/no_aug/model_epoch_best.pth")['model']
+        # pretrained_dict = torch.load("/home/ubuntu/efs/DeepFake_Data/checkpoints/no_aug/model_epoch_best.pth")['model']
+        # pretrained_dict = {k: v for k, v in pretrained_dict.items() if (k in model_dict and 'fc' not in k)}
+        # model_dict.update(pretrained_dict)
+        # model.load_state_dict(model_dict)
+        import torchvision.models as models
+        pretrained_dict = models.resnet50(pretrained=True).state_dict()
         pretrained_dict = {k: v for k, v in pretrained_dict.items() if (k in model_dict and 'fc' not in k)}
         model_dict.update(pretrained_dict)
         model.load_state_dict(model_dict)
-        #import torchvision.models as models
-        #pretrained_dict = models.resnet50(pretrained=True).state_dict()
-        #pretrained_dict = {k: v for k, v in pretrained_dict.items() if (k in model_dict and 'fc' not in k)}          
-        #import pdb;pdb.set_trace()
-        #model_dict.update(pretrained_dict)
-        #model.load_state_dict(model_dict)
 
 
     return model
