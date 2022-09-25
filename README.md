@@ -77,10 +77,10 @@ Max
 
 When using the code/figures/data/etc., please cite our work
 ```
-@article{li2022continual,
+@inproceedings{li2022continual,
   title={A Continual Deepfake Detection Benchmark: Dataset, Methods, and Essentials},
   author={Li, Chuqiao and Huang, Zhiwu and Paudel, Danda Pani and Wang, Yabin and Shahbazi, Mohamad and Hong, Xiaopeng and Van Gool, Luc},
-  journal={arXiv preprint arXiv:2205.05467},
-  year={2022}
+  booktitle={Winter Conference on Applications of Computer Vision (WACV)},
+  year={2023}
 }
 ```
