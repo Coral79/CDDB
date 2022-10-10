@@ -13,12 +13,16 @@ Chuqiao Li, Zhiwu Huang, Danda Pani Paudel, Yabin Wang, Mohamad Shahbazi, Xiaope
 Run `pip install -r requirements.txt` to install required dependencies.
 
 ## Datasets
-
+Our proposed CDDB benchmark dataset contains mixed deepfake sources as follows:
 <img src='https://github.com/Coral79/CDDB/blob/main/image/CDDB_table.png' width=600> 
 
 Download the following datasets to `datasets/`
 * [CDDB Dataset](https://drive.google.com/file/d/1NgB8ytBMFBFwyXJQvdVT_yek1EaaEHrg/view?usp=sharing)
-We collected the benchmark dataset from the opensource dataset of [[CNNDetection]](https://peterwang512.github.io/CNNDetection/), [[GanFake]](https://github.com/grip-unina/DoGANs), [[WildDeepFake]](https://github.com/deepfakeinthewild/deepfake-in-the-wild)
+
+We collected the benchmark dataset from pervious opensource deepfake datasets:
+* ProGAN,StyleGAN, BigGAN, CycleGAN, GauGAN, CRN,IMLE, SAN, FaceForensics++ ,WhichFaceReal from [[CNNDetection]](https://peterwang512.github.io/CNNDetection/)
+* GLOW, StarGAN from [[GanFake]](https://github.com/grip-unina/DoGANs)
+* WildDeepfake from [[WildDeepFake]](https://github.com/deepfakeinthewild/deepfake-in-the-wild)
 
 Organize the dataset folder as:
 ```
