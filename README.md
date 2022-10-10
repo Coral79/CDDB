@@ -21,7 +21,7 @@ Download the following datasets to `datasets/`
 
 We collected the benchmark dataset from pervious opensource deepfake datasets:
 * ProGAN,StyleGAN, BigGAN, CycleGAN, GauGAN, CRN,IMLE, SAN, FaceForensics++ ,WhichFaceReal from [[CNNDetection]](https://peterwang512.github.io/CNNDetection/)
-* GLOW, StarGAN from [[GanFake]](https://github.com/grip-unina/DoGANs)
+* GLOW, StarGAN from [[GanFake Detection]](https://arxiv.org/abs/1910.01568)
 * WildDeepfake from [[WildDeepFake]](https://github.com/deepfakeinthewild/deepfake-in-the-wild)
 
 Organize the dataset folder as:
