@@ -3,7 +3,7 @@ Pytorch implementation for WACV 2023 paper "A Continual Deepfake Detection Bench
 We propose a continual deepfake detection benchmark (CDDB) over a new collection of deepfakes from
 both known and unknown generative models.
 
-<img src='https://Coral79.github.io/CDDB/images/CDDB.png' width=1200>
+<img src='https://github.com/Coral79/CDDB/blob/main/image/CDDB.png' width=1200> 
 
 **A Continual Deepfake Detection Benchmark: Dataset, Methods, and Essentials** <br>
 Chuqiao Li, Zhiwu Huang, Danda Pani Paudel, Yabin Wang, Mohamad Shahbazi, Xiaopeng Hong, Luc Van Gool <br>
