@@ -13,7 +13,9 @@ Chuqiao Li, Zhiwu Huang, Danda Pani Paudel, Yabin Wang, Mohamad Shahbazi, Xiaope
 Run `pip install -r requirements.txt` to install required dependencies.
 
 ## Datasets
-<img src='https://github.com/Coral79/CDDB/blob/main/image/CDDB_table.png' width=1200> 
+
+<img src='https://github.com/Coral79/CDDB/blob/main/image/CDDB_table.png' width=600> 
+
 Download the following datasets to `datasets/`
 * [CDDB Dataset](https://drive.google.com/file/d/1NgB8ytBMFBFwyXJQvdVT_yek1EaaEHrg/view?usp=sharing)
 We collected the benchmark dataset from the opensource dataset of [[CNNDetection]](https://peterwang512.github.io/CNNDetection/), [[GanFake]](https://github.com/grip-unina/DoGANs), [[WildDeepFake]](https://github.com/deepfakeinthewild/deepfake-in-the-wild)
