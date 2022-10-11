@@ -7,7 +7,7 @@ both known and unknown generative models.
 
 **A Continual Deepfake Detection Benchmark: Dataset, Methods, and Essentials** <br>
 Chuqiao Li, Zhiwu Huang, Danda Pani Paudel, Yabin Wang, Mohamad Shahbazi, Xiaopeng Hong, Luc Van Gool <br>
-[[Project Page]] [[Paper]](https://arxiv.org/abs/2205.05467.pdf)
+[[Project Page]](https://coral79.github.io/CDDB_web/) [[Paper]](https://arxiv.org/abs/2205.05467.pdf)
 
 ## Dependencies
 Run `pip install -r requirements.txt` to install required dependencies.
