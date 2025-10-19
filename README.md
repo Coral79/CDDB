@@ -21,8 +21,8 @@ We collected the benchmark dataset from pervious opensource deepfake datasets:
 * GLOW, StarGAN from [[GanFake Detection]](https://arxiv.org/abs/1910.01568)
 * WildDeepfake from [[WildDeepFake]](https://github.com/deepfakeinthewild/deepfake-in-the-wild)
 
-Download the following datasets to `datasets/`
-* [CDDB Dataset](https://drive.google.com/file/d/1NgB8ytBMFBFwyXJQvdVT_yek1EaaEHrg/view?usp=sharing)
+Download the following datasets to `datasets/` (**Note: Access ends 18/12/2025. Request future access at Zhiwu.Huang@gmail.com**)
+* [CDDB Dataset](https://sotonac-my.sharepoint.com/:u:/g/personal/zh1r23_soton_ac_uk/EUjD2YxQ4SVKm0V03MOas84BYxVX-5CxME-SyYUHdm-47g?e=7moS4w)
 * [ProGAN pretrained weights]
 
 Organize the dataset folder as:
